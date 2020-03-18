@@ -2,18 +2,18 @@
 
 ## To Do List
   - CV
-  - clean up post import
-  - Clean up codeblocks to match dark mode
-  - Remove G+
   - Switch contact form to Netlify
   - 301 Redirect page
 
-## Change
+## Changes
 - Colors.
   - Background: \#111111
   - Background alt: \#0f0f0f
   - Text: \#AAAAAA
   - blue-dark: \#0074d9
+- clean up post import
+- Clean up codeblocks to match dark mode
+- Removed G+
 
 ## Flexton is an ultra-minimalist and responsive theme for Jekyll
 

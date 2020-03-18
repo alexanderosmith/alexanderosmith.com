@@ -16,8 +16,7 @@ permalink: /contact/
   </div>
 </header>
 <div class="c-form-box o-opacity">
-  <form class="c-form" action="{% if site.author-email %}https://formspree.io/{{site.author-email}}{% else %}#{% endif %}"
-    method="POST">
+    <form class="c-form" name="contact" method="POST" data-netlify="true">
     <a href="/"><div class="c-form-bnt__close" data-icon='ei-close' data-size='s'></div></a>
     <div class="c-form__title">You can contact me!</div>
     <div class="c-form__group">
