@@ -1,4 +1,4 @@
-# [Alexander O. Smith](https://aos11409.github.io)
+# [Alexander O. Smith](https://www.alexanderosmith.com/)
 
 ## To Do List
   - CV

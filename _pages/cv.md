@@ -1,17 +1,9 @@
 ---
-layout: home
+layout: post
 title: "Alexander O. Smith - Curriculum Vitae"
 description: "Economist and Information Scientist"
-permalink: /cv.html
-image: "images/theplayground2.jpg"
-imageattribution: "Alexander O. Smith"
-imageattributionlink: https://aos11409.github.io/AboutAlexander/
-block_share_bottom: true
+permalink: /cv/
 ---
-
-<button class="btn align-right print-content-button">Print</button>
-
-<div class="print-content">
 
 {% capture pageContent %}
 {% assign cv = site.data.cv %}
@@ -20,7 +12,8 @@ block_share_bottom: true
 ### {{ cv.details.blurb }}
 {% endif %}
 
-{% if cv.details.email %}Email: **<a href="mailto:{{ cv.details.email }}">{{ cv.details.email }}</a>**<br />{% endif %}
+{% if cv.details.email %}Email: **<a href="mailto:{{ cv.details.email }}">{{ cv.details.email }}</a>**<br />
+{% endif %}
 {% if cv.details.phone %}Phone: **{{ cv.details.phone }}**<br />{% endif %}
 {% if cv.details.location %}Location: **{{ cv.details.location }}**<br />{% endif %}
 
