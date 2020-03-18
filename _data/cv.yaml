@@ -32,9 +32,11 @@ sections:
     - title: "Andrew Young School, Georgia State University"
       blurb: "Economics Tutor"
       date:  "8/2013 – 5/2015"
-    - title: "Economics, Richards College"
+    - title: "University of West Georgia, Richards College"
       blurb: "Undergraduate Research Assistant"
       date:  "8/2012 – 5/2013"
+      content:
+        - "Economics"
 
   - title: "SCHOLARSHIP"
     content:
