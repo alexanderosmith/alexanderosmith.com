@@ -3,7 +3,7 @@ layout: post
 title:  "Ethics of Big Data"
 date:   2018-04-03 05:00:00 +0000
 image: "theplayground2.jpg"
-categories: Data
+categories: data
 tags:
   - Blog
   - Social Media Methods

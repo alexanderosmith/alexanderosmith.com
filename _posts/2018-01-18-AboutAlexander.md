@@ -3,7 +3,7 @@ layout: post
 title:  "About Alexander"
 date:   2018-01-18 05:00:00 +0000
 image: "profile.jpg"
-categories: About
+categories: about
 tags:
   - About
   - AOS

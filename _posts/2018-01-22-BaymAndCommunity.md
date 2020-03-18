@@ -3,7 +3,7 @@ layout: post
 title:  "Baym and 1990s CMC Concerns on Online Community"
 date:   2018-01-22 05:00:00 +0000
 image: "theplayground2.jpg"
-categories: Social-Media
+categories: social-media
 tags:
   - Blog
   - Social Media Methods

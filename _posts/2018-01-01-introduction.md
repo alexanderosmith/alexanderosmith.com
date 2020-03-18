@@ -3,7 +3,7 @@ layout: post
 title: "Introduction"
 date: 2018-01-01 15:13:18 +0200
 image: profile.jpg
-tags: [aos, About]
+tags: [aos, about]
 categories: about
 published: true
 ---
