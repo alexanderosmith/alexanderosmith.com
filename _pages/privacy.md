@@ -2,6 +2,7 @@
 layout: home
 title: "Privacy"
 description: "Privacy Policy for Alexander Owen Smith, alexanderosmith.com"
+permalink: /privacy/
 ---
 
 # Welcome to our Privacy Policy

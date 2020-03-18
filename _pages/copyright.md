@@ -2,6 +2,7 @@
 layout: home
 title: "Copyright"
 description: "Licensing and copyright"
+permalink: /copyright/
 ---
 
 ## Text
@@ -14,7 +15,7 @@ description: "Licensing and copyright"
 ### MIT License
 MIT License
 
-Copyright (c) [2017-Present] [Alexander O. Smith]
+Copyright (c) [{{site.time | date: '%Y'}}] [Alexander O. Smith]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
