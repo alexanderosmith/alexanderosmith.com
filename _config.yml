@@ -34,10 +34,11 @@ disqus-identifier: https-aos11409-github-io # Add your shortname for Disqus Comm
 markdown: kramdown
 permalink: /:title/
 plugins:
-    - jekyll-feed
-    - jekyll-paginate
-    - jekyll-sitemap
-
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
 
 paginate: 7
 paginate_path: "/page/:num/"
