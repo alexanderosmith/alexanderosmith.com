@@ -1,7 +1,7 @@
 title: Alexander O. Smith
 description: "PhD Student, iSchool, Syracuse University"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://demo.theological.me" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://demo.theological.me" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author
 author-name:    Alexander O. Smith
@@ -9,7 +9,7 @@ author-image:   aos_bw.png
 author-job:     PhD Student, iSchool, Syracuse University
 author-email:   aosmith@syr.edu # Add your email for contant form.
 author-twitter: alexander0wen # Add your twitter account
-about-author:   I am a PhD studnet focusing on memes. I love coffee so much it hurts.
+about-author:   I am a PhD student focusing on memes. I love coffee so much it hurts.
 
 # Social settings
 social-twitter:   alexander0wen
@@ -40,6 +40,7 @@ plugins:
     - jekyll-sitemap
     - jemoji
     - jekyll-include-cache
+    - jekyll-seo-tag
 
 paginate: 7
 paginate_path: "/page/:num/"
