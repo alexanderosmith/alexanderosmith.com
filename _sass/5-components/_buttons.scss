@@ -14,13 +14,13 @@
   transition: $global-transition;
 
   &--primary {
-    color: $white-color;
+    color: $dark;
     background-color: $primary-color;
     background: linear-gradient(135deg, #33aaff 0%, #62d5ff 100%);
   }
 
   &--secondary {
-    color: $white-color;
+    color: $dark;
     background-color: $secondary-color;
     background: linear-gradient(135deg, #a2a2bd 0%,#cfcfdd 100%);
   }
@@ -48,7 +48,7 @@
   }
 
   &:hover {
-    color: $white-color;
+    color: $dark;
     transition: $global-transition;
   }
 
