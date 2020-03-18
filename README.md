@@ -4,6 +4,7 @@
   - CV
   - clean up post import
   - Clean up codeblocks to match dark mode
+  - Remove G+
 
 ## Change
 - Colors.
