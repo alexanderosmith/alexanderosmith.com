@@ -47,6 +47,7 @@
 
 .c-form__group {
   margin-bottom: 20px;
+  background-color: $dark;
   label {
     display: block;
     text-transform: uppercase;
@@ -54,6 +55,7 @@
   }
   input,
   textarea {
+    background-color: $dark;
     width: 100%;
     padding: 10px 15px;
     color: $text-color;
