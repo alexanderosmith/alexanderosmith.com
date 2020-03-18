@@ -1,7 +1,6 @@
 # [Alexander O. Smith](https://www.alexanderosmith.com/)
 
 ## To Do List
-  - 301 Redirect page
 
 ## Changes
 - using YAML CV by [Michael Standen](https://michael.standen.link/)
