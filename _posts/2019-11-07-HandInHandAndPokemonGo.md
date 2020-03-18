@@ -3,8 +3,7 @@ layout: post
 title:  "Hand in Hand & Pokemon Go: The Restaurant in the Middle of the Universe"
 date:   2019-11-07 01:00:00 +0000
 image: "theplayground2.jpg"
-imageattribution: "Alexander O. Smith"
-imageattributionlink: https://aos11409.github.io/AboutAlexander/
+categories: social-media
 tags:
   - Blog
   - Social Media
@@ -34,3 +33,6 @@ One thing that never left me, even if I almost forgot this story, is that networ
 At some point, the experience that happens in these kinds of moments lives with us forever, but it is decided by how we interpret the event, and the literal bristling of bodies across the space. You cannot design or plan for these kinds of happenings. You can only try your best. All I know is that from that moment on, I stopped being an economist and became a social networks focused informational scientist trying to understand how the most trivial of things can change the way we see the world forever. Traditional economic thinking doesn't hold the same kind of energy of life and such a vested interest in a research area that I faced that day. I went on to take a PhD level Computer Science course on Networks taught by Dr. Constantine Dovrolis at Georgia Tech, and academically changed the entire focus of my masters thesis. I walked away from that event changed in every way. A techno-religious experience decided what kind of scientist I consider myself to be.
 
 But of all people who probably should have been at Hand In Hand, I don't recall if the Fire Department ever showed up to give anyone a warning.
+
+
+[Image Attribution: Alexander O. Smith](/AboutAlexander/)

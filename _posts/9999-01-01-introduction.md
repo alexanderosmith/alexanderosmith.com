@@ -2,9 +2,9 @@
 layout: post
 title: "Introduction"
 date: 9999-01-01 15:13:18 +0200
-image: 12.jpg
-tags: [jekyll, docs]
-categories: jekyll
+image: profile.jpg
+tags: [aos, About]
+categories: about
 published: true
 ---
 
@@ -16,4 +16,4 @@ Alexander's research is closely tied to memetics: the study of memes. More gener
 
 Alexander spends most of his time reading various fields of philosophy, social science theory, and virtual culture. Additionally, he is developing skills in Python and R for data science, network methods, and data visualization. Alexander spends his time outside of PhD work playing with coffee and digital data art.
 
-[More about Alexander](/AboutAlexander/)
+[More about Alexander](/AboutAlexander/

@@ -3,8 +3,7 @@ layout: post
 title:  "The Websphere and a Comparison to Ethnography"
 date:   2018-02-19 05:00:00 +0000
 image: "theplayground2.jpg"
-imageattribution: "Alexander O. Smith"
-imageattributionlink: https://aos11409.github.io/AboutAlexander/
+categories: social-media
 tags:
   - Blog
   - Social Media Methods
@@ -36,3 +35,5 @@ For example, had the developed more of the kinds of activities that people parta
 [^4]: Geiger, R. S. & Ribes, D. (2011). Trace ethnography: Following coordination through documentary practices. Proceedings of the 44th Hawaii International Conference on System Sciences (HICSS). 10.1109/HICSS.2011.455
 
 [^5]: Foot, K., Warnick, B., & Schneider, S. (2006). Web-based memorializing after September 11: Toward a conceptual framework. Journal of Computer-Mediated Communication, 11, 72-96.
+
+[Image Attribution: Alexander O. Smith](/AboutAlexander/)

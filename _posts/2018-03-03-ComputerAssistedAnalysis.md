@@ -3,8 +3,7 @@ layout: post
 title:  "Computer Assisted Analysis"
 date:   2018-03-03 05:00:00 +0000
 image: "theplayground2.jpg"
-imageattribution: "Alexander O. Smith"
-imageattributionlink: https://aos11409.github.io/AboutAlexander/
+categories: social-media
 tags:
   - Blog
   - Social Media Methods
@@ -35,3 +34,5 @@ With this reason, I believe it is not the computers which people should worry us
 In this way, it seems to me that the core dilemma of "assisted" or "mediated" computation is not one of understanding it, but rather falsely believing we understand our social tendencies in a necessarily computational world. It seems to me that the most immediately dangerous computational tool is a human mind which knowingly or unknowingly manages or polices social interests if only because we cannot point fingers at the core. It is because we can point fingers to the core of a computer's calculative ability that it is not so much of a problem as people.
 
 As we increasingly find ourselves in a mind-boggling amount of data produced by the documents of society, this is what I think people should understand. Big data exists because of people increasingly documenting in order to understand, manage, and police themselves for whatever reasons they have chosen. We should begin to see these human reasons as the kind of computation to worry over, not the computations themselves.
+
+[Image Attribution: Alexander O. Smith](/AboutAlexander/)

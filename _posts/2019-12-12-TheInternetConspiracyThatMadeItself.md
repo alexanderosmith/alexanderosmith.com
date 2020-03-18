@@ -3,8 +3,7 @@ layout: post
 title:  "The Digital Conspiracy That Made Itself"
 date:   2019-12-12 05:00:00 +0000
 image: "theplayground2.jpg"
-imageattribution: "Alexander O. Smith"
-imageattributionlink: https://aos11409.github.io/AboutAlexander/
+categories: conspiracy-theories
 tags:
   - Blog
   - Conspiracy Theory
@@ -38,3 +37,5 @@ I keep seeing traditional news media and people online talking about things that
 Normally, such things would be found in some computer system somewhere. Or it would be found in some computer log that could be found by some digital forensics, but not this. Such memory could not be allocated to this. This actor knew what they were doing. This is the kind of stuff that somebody posts on 4chan, it disappears after a day or two, but people hold onto for the rest of their lives believing it not remembering why in the way that there are manuscripts cited by Greek philosophers that will never be read because they were lost. But here there is no attribution at all, no marker that we can see that would guide us to where they were informed. This, as far as I'm aware, is the only record of this truth.
 
 THIS is how I came to believe a the world first born digital conspiracy theory that _BECAME_ true because it existed, changed us, and then evaporated. It is the world first actual full, honest-to-blog simulation except for this last little marker of history of what really happened. What was actual became ghost, and what was contrived became real. They say the Internet is dangerous because what we post lasts forever. I know it's also dangerous because of what _DOESN'T_, yet haunts us still.
+
+[Image Attribution: Alexander O. Smith](/AboutAlexander/)

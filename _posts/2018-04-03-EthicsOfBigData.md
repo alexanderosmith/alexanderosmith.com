@@ -3,8 +3,7 @@ layout: post
 title:  "Ethics of Big Data"
 date:   2018-04-03 05:00:00 +0000
 image: "theplayground2.jpg"
-imageattribution: "Alexander O. Smith"
-imageattributionlink: https://aos11409.github.io/AboutAlexander/
+categories: Data
 tags:
   - Blog
   - Social Media Methods
@@ -53,3 +52,5 @@ Perhaps this is more true in industry, or more visual to the public because of m
 
 #Reference
 Boyd, d., & Crawford, K. (2012). Critical questions for big data. Information, Communication & Society, 15, 662-679.
+
+[Image Attribution: Alexander O. Smith](/AboutAlexander/)

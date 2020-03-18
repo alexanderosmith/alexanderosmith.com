@@ -4,8 +4,7 @@ title:  "Demographics & Postdemographics"
 excerpt: "Implications for research & ethics"
 date:   2018-01-30 05:00:00 +0000
 image: "theplayground2.jpg"
-imageattribution: "Alexander O. Smith"
-imageattributionlink: https://aos11409.github.io/AboutAlexander/
+categories: demographics
 tags:
   - Demographics
   - Social Science
@@ -55,3 +54,5 @@ Build and use tools mindfully.
 [^4]: Murthy, Dhiraj, Alexander Gross, and Alexander Pensavalle. “Urban Social Media Demographics: An Exploration of Twitter Use in Major American Cities.” Journal of Computer-Mediated Communication 21, no. 1 (January 2016): 33–49.
 
 [^5]: Burnap, Pete, Omer F. Rana, Nick Avis, Matthew Williams, William Housley, Adam Edwards, Jeffrey Morgan, and Luke Sloan. “Detecting Tension in Online Communities with Computational Twitter Analysis.” Technological Forecasting and Social Change 95 (June 1, 2015): 96–108.
+
+[Image Attribution: Alexander O. Smith](/AboutAlexander/)

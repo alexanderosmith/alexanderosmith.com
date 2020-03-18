@@ -3,8 +3,7 @@ layout: post
 title:  "Method Optimization"
 date:   2018-02-10 05:00:00 +0000
 image: "theplayground2.jpg"
-imageattribution: "Alexander O. Smith"
-imageattributionlink: https://aos11409.github.io/AboutAlexander/
+categories: social-media
 tags:
   - Blog
   - Social Media Methods
@@ -49,3 +48,6 @@ As stated, it seems to me that there is a somewhat unstated order to making meth
 [^3]: O'Connor, H. & Madge, C. (2017). Online interviewing. In Fielding, N., Lee, R. & Blank, G. *The SAGE Handbook of online research methods* (pp. 416-434). 55 City Road, London: SAGE Publications Ltd. doi: 10.4135/9781473957992
 
 [^4]: Dean, E., Cook, S., Keating, M, & Murphy, J. (2009). Does this avatar make me look fat?: Obesity and interviewing in Second Life. Journal of Virtual Worlds Research, 2, 3-11.
+
+
+[Image Attribution: Alexander O. Smith](/AboutAlexander/)

@@ -3,8 +3,7 @@ layout: post
 title:  "Practical Data"
 date:   2018-03-20 05:00:00 +0000
 image: "theplayground2.jpg"
-imageattribution: "Alexander O. Smith"
-imageattributionlink: https://aos11409.github.io/AboutAlexander/
+categories: Data
 tags:
   - Blog
   - Social Media Methods
@@ -24,3 +23,5 @@ If one sees the choice of data in this way, then there are some points that shou
 Secondly, one should consider the fragility of only studying one platform. If Twitter was gone tomorrow, could a research project speak about human behavior or information beyond Twitter? This seems to be something I have found fairly difficult with research areas largely organized around a single social platform. When I read a study that primarily focuses on a single platform, I find myself asking whether or not the work actually tells me something about people, information, or simply the platform itself. If it's the latter, I always feel like I wasted my time. Considering the short period of time social media platforms historically have existed, speaking about the nature of a platform in of itself does not seem very appealing if that is not the goal.
 
 Because of these two points, seems that attempting to consider possible studies on a different social network or platform is always a good idea. See if there are tools for lesser known platforms. See if there are ways to translate your technical skills and questions to your interests and that platform's design. Certainly it is beneficial to study Twitter for certain questions and it helps that data is accessible. However, if one spends a little time to develop a new tool to understand another, perhaps this study will help bolster the generality of online social platform studies as a whole. It is really easy to simply use the tools you know, but being able to study elsewhere might be crucial for the future of the field.
+
+[Image Attribution: Alexander O. Smith](/AboutAlexander/)

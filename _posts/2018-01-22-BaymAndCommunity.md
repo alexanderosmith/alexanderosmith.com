@@ -3,8 +3,7 @@ layout: post
 title:  "Baym and 1990s CMC Concerns on Online Community"
 date:   2018-01-22 05:00:00 +0000
 image: "theplayground2.jpg"
-imageattribution: "Alexander O. Smith"
-imageattributionlink: https://aos11409.github.io/AboutAlexander/
+categories: Social-Media
 tags:
   - Blog
   - Social Media Methods
@@ -57,3 +56,6 @@ Finally, if one is to take these considerations and believe them as a potentiall
 [^6]: Phillips, Whitney. This Is Why We Can’t Have Nice Things: Mapping the Relationship between Online Trolling and Mainstream Culture. Reprint edition. The MIT Press, 2016.
 
 [^7]: Bratton, Benjamin H. The Stack: On Software and Sovereignty. MIT Press, 2016.
+
+
+[Image Attribution: Alexander O. Smith](/AboutAlexander/)

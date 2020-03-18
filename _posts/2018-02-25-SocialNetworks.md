@@ -3,8 +3,7 @@ layout: post
 title:  "Social & Information Networks"
 date:   2018-02-25 05:00:00 +0000
 image: "arpanet.png"
-imageattribution: "The Computer History Museum"
-imageattributionlink: http://www.computerhistory.org
+categories: social-media
 tags:
   - Blog
   - Social Media Methods
@@ -56,3 +55,5 @@ If this is possible, it would certainly create some interesting outcomes in meth
 [^8]: Deleuze, Gilles. Expressionism in Philosophy: Spinoza. Translated by Martin Joughin. First Paperback Edition edition. New York : Cambridge, Mass: Zone Books, 1992.
 
 [^9]: Deleuze, Gilles. Spinoza: Practical Philosophy. Translated by Robert Hurley. First Edition in English edition. San Francisco, Calif: City Lights Publishers, 2001.
+
+[Image Attribution: The Computer History Museum](http://www.computerhistory.org)
