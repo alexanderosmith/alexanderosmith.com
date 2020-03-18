@@ -17,13 +17,25 @@ sections:
     - title: "University of West Georgia, Richards College of Business"
       blurb: "B.S. Economics"
       date:  "2013"
+
   - title: "EMPLOYMENT"
     content:
-      - "8/2017 – Present:	Research Assistant, iSchool, Syracuse University, Syracuse, NY"
-      - "8/2014 – 5/2017:	Supplemental Instructor, Microeconomics, Andrew Young School, Atlanta, GA"
-      - "8/2013 – 12/2014:	Graduate Assistant & Teaching Assistant, Andrew Young School, Atlanta, GA"
-      - "8/2013 – 5/2015:	Economics Tutor, Andrew Young School, Atlanta, GA"
-      - "8/2012 – 5/2013:	Undergraduate Research Assistant, Economics, Richards College, Carrollton, GA"
+    - title: "Syracuse University, iSchool"
+      blurb: "Present:	Research Assistant"
+      date:  "8/2017"
+    - title: "Andrew Young School, Georgia State University"
+      blurb: "Supplemental Instructor, Microeconomics"
+      date:  "8/2014 – 5/2017"
+    - title: "Andrew Young School, Georgia State University"
+      blurb: "Graduate Assistant & Teaching Assistant"
+      date:  "8/2013 – 12/2014"
+    - title: "Andrew Young School, Georgia State University"
+      blurb: "Economics Tutor"
+      date:  "8/2013 – 5/2015"
+    - title: "Economics, Richards College"
+      blurb: "Undergraduate Research Assistant"
+      date:  "8/2012 – 5/2013"
+
   - title: "SCHOLARSHIP"
     content:
     - title: "Posters and Presentations"
@@ -36,5 +48,6 @@ sections:
     - title: "Work in Progress"
       content:
       - "Smith, Alexander O. \"*Slaps Roof of Signified*: Casing Semiotic Memetics\" "
+
   - title: "REFERENCES"
     request: true
