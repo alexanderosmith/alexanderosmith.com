@@ -36,9 +36,7 @@ permalink: /:title/
 plugins:
     - jekyll-feed
     - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-include-cache
-    - jekyll-seo-tag
+
 
 paginate: 7
 paginate_path: "/page/:num/"
