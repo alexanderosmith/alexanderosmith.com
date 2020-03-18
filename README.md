@@ -5,6 +5,8 @@
   - clean up post import
   - Clean up codeblocks to match dark mode
   - Remove G+
+  - Switch contact form to Netlify
+  - 301 Redirect page
 
 ## Change
 - Colors.
