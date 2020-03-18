@@ -1,11 +1,11 @@
 # [Alexander O. Smith](https://www.alexanderosmith.com/)
 
 ## To Do List
-  - CV
   - 301 Redirect page
 
 ## Changes
 - using YAML CV by [Michael Standen](https://michael.standen.link/)
+  - For Title, Blurb, Content might need to be switched depending on what one wants emphasized.
 - Switched contact form form formspree.io to Netlify
 - Colors.
   - Background: \#111111
@@ -51,7 +51,7 @@ I have used the following scripts, fonts or other files as listed.
 *   [jQuery.com](https://jquery.com/)
 *   [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
 *   Preview Images form [unsplash.com](https://unsplash.com/), [pexels.com](https://www.pexels.com/)
-
+*   Kamila.is [@AnotherKamila](https://github.com/AnotherKamila/) has the best [YAML CV](https://github.com/AnotherKamila/yamlCV) but hers is setup very differently than Michael's.
 ## Deployment
 
 To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec serve` to start the Jekyll server. I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.

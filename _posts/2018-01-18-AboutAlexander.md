@@ -29,4 +29,6 @@ In the past, Alexander has been a teaching assistant, tutor, and Supplemental In
 
 Alexander is a coffee connoisseur (some might say "snob") and spent 6 years in coffee industry and is a fountain pen fanatic. He has a strong interest in online cultures, and is gaining an interest in Linux development, the open source community, and blockchain and other decentralized virtual technologies. Importantly, Alexander is a fan of all manner of sci-fi, but has a special affinity for all things TRON, Blade Runner, and Star Wars. Also, he's an advocate for the Open Source community.
 
-[Image Attribution: Alexander O. Smith](/)
+  * [Alexander O. Smith CV](/cv/)
+  * [Introduction](/Introduction/)
+  * [Image Attribution: Alexander O. Smith](/)

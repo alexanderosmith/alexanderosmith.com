@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: "Alexander O. Smith - Curriculum Vitae"
 description: "Economist and Information Scientist"
 permalink: /cv.html
