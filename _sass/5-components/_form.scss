@@ -53,7 +53,10 @@
     text-transform: uppercase;
     font-size: 10px;
   }
-  input,
+  input {
+        background-color : #9cf;
+        color : #000;
+        }
   textarea {
     width: 100%;
     padding: 10px 15px;
