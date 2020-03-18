@@ -9,16 +9,14 @@ sections:
   - title: "EDUCATION"
     content:
     - title: "Syracuse University, iSchool"
-      content:
-        - " Ph.D. Student Information Science & Technology"
-      date: "2017-Present"
+      blurb: "Ph.D. Student Information Science & Technology"
+      date:  "2017-Present"
     - title: "Georgia State University, Andrew Young School of Policy Studies"
-      content:
-        - "M.A. Economics"
-      date: "2017"
+      blurb: "M.A. Economics"
+      date:  "2017"
     - title: "University of West Georgia, Richards College of Business"
       blurb: "B.S. Economics"
-      date: "2013"
+      date:  "2013"
   - title: "EMPLOYMENT"
     content:
       - "8/2017 – Present:	Research Assistant, iSchool, Syracuse University, Syracuse, NY"
