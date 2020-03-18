@@ -32,7 +32,7 @@
       text-transform: uppercase;
       font-size: 12px;
       &:hover {
-        color: darken($text-color, 30%);
+        color: lighten($text-color, 30%);
       }
     }
   }

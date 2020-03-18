@@ -41,7 +41,7 @@ $heading-font-color: #AAAAAA;
 
 // Links
 $link-color: $primary-color;
-$link-color-hover: darken($link-color, 15%);
+$link-color-hover: lighten($link-color, 15%);
 
 
 // Border
