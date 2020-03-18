@@ -4,7 +4,7 @@ title: "Alexander O. Smith - Curriculum Vitae"
 description: "Economist and Information Scientist"
 permalink: /cv.html
 ---
-
+<div class="print-content">  
 
 {% capture pageContent %}  
 {% assign cv = site.data.cv %}  
@@ -46,3 +46,5 @@ permalink: /cv.html
 {% endcapture %}  
 
 {{ pageContent | markdownify }}
+
+</div>
