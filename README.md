@@ -5,6 +5,7 @@
   - 301 Redirect page
 
 ## Changes
+- using YAML CV by [Michael Standen](https://michael.standen.link/)
 - Switched contact form form formspree.io to Netlify
 - Colors.
   - Background: \#111111
