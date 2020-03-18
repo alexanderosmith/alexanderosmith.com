@@ -21,11 +21,15 @@ sections:
   - title: "EMPLOYMENT"
     content:
     - title: "Syracuse University, iSchool"
-      blurb: "Present:	Research Assistant"
+      blurb: "Present"
       date:  "8/2017"
+      content:
+        - "Research Assistant"
     - title: "Andrew Young School, Georgia State University"
-      blurb: "Supplemental Instructor, Microeconomics"
+      blurb: "Supplemental Instructor"
       date:  "8/2014 – 5/2017"
+      Content:
+        - "Microeconomics"
     - title: "Andrew Young School, Georgia State University"
       blurb: "Graduate Assistant & Teaching Assistant"
       date:  "8/2013 – 12/2014"
