@@ -1,13 +1,16 @@
 # [Alexander O. Smith](https://aos11409.github.io)
 
 ## To Do List
-  - Colors.
-    - Background: \#111111
-    - Background alt: \#0f0f0f
-    - Text: \#AAAAAA
   - CV
   - clean up post import
   - fix image attribution
+
+## Change
+- Colors.
+  - Background: \#111111
+  - Background alt: \#0f0f0f
+  - Text: \#AAAAAA
+  - blue-dark: \#0074d9
 
 ## Flexton is an ultra-minimalist and responsive theme for Jekyll
 
