@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem 'bundler'
 gem 'jekyll'
-gem 'jekyll-paginate'
+
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
