@@ -16,4 +16,4 @@ Alexander's research is closely tied to memetics: the study of memes. More gener
 
 Alexander spends most of his time reading various fields of philosophy, social science theory, and virtual culture. Additionally, he is developing skills in Python and R for data science, network methods, and data visualization. Alexander spends his time outside of PhD work playing with coffee and digital data art.
 
-[More about Alexander](/AboutAlexander/
+[Learn more about Alexander](/AboutAlexander/)
