@@ -4,7 +4,7 @@
   - Colors.
     - Background: \#111111
     - Background alt: \#0f0f0f
-    - Text: \##AAAAAA
+    - Text: \#AAAAAA
   - CV
   - clean up post import
   - fix image attribution
