@@ -2,7 +2,7 @@
 layout: post
 title:  "Hand in Hand & Pokemon Go: The Restaurant in the Middle of the Universe"
 date:   2019-11-07 01:00:00 +0000
-image: "images/theplayground2.jpg"
+image: "theplayground2.jpg"
 imageattribution: "Alexander O. Smith"
 imageattributionlink: https://aos11409.github.io/AboutAlexander/
 tags:

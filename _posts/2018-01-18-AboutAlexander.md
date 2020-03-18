@@ -2,7 +2,7 @@
 layout: post
 title:  "About Alexander"
 date:   2018-01-18 05:00:00 +0000
-image: "images/profile.jpg"
+image: "profile.jpg"
 imageattribution: "Alexander O. Smith"
 imageattributionlink: https://aos11409.github.io/AboutAlexander/
 tags:

@@ -1,16 +1,22 @@
 # [Alexander O. Smith](https://aos11409.github.io)
 
-# Flexton is an ultra-minimalist and responsive theme for Jekyll
+## To Do List
+  - Colors
+  - CV
+  - clean up post import
+  - image attribution
+
+## Flexton is an ultra-minimalist and responsive theme for Jekyll
 
 Flexton created especially for those who appreciate minimalism and functionality.
 
 Amazing flexibility with pleasant colors and custom design makes Flexton a simple theme, suitable for almost any blog.
 
-## Demo
+### Demo
 
 Check the theme in action [Demo](https://flexton.netlify.com/) ![Page preview](https://github.com/artemsheludko/flexton/blob/master/images/preview.png?raw=true)
 
-## Features
+### Features
 
 *   100% responsive and clean theme
 *   Optimized for mobile devices

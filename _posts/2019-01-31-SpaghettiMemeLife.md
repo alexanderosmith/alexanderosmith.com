@@ -2,7 +2,7 @@
 layout: post
 title:  "Spaghetti Meme Life"
 date:   2019-01-31 01:00:00 +0000
-image: "images/theplayground2.jpg"
+image: "theplayground2.jpg"
 imageattribution: "Alexander O. Smith"
 imageattributionlink: https://aos11409.github.io/AboutAlexander/
 tags:

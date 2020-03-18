@@ -2,7 +2,7 @@
 layout: post
 title:  "Method Optimization"
 date:   2018-02-10 05:00:00 +0000
-image: "images/theplayground2.jpg"
+image: "theplayground2.jpg"
 imageattribution: "Alexander O. Smith"
 imageattributionlink: https://aos11409.github.io/AboutAlexander/
 tags:

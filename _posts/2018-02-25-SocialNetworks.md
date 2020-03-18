@@ -2,7 +2,7 @@
 layout: post
 title:  "Social & Information Networks"
 date:   2018-02-25 05:00:00 +0000
-image: "images/arpanet.png"
+image: "arpanet.png"
 imageattribution: "The Computer History Museum"
 imageattributionlink: http://www.computerhistory.org
 tags:
