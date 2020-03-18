@@ -2,10 +2,10 @@
 
 ## To Do List
   - CV
-  - Switch contact form to Netlify
   - 301 Redirect page
 
 ## Changes
+- Switched contact form form formspree.io to Netlify
 - Colors.
   - Background: \#111111
   - Background alt: \#0f0f0f
