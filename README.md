@@ -3,7 +3,7 @@
 ## To Do List
   - CV
   - clean up post import
-  - fix image attribution
+  - Clean up codeblocks to match dark mode
 
 ## Change
 - Colors.
