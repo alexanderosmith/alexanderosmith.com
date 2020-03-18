@@ -3,6 +3,7 @@
 ## To Do List
   - Colors.
     - Background: \#111111
+    - Background alt: \#0f0f0f
     - Text: \##AAAAAA
   - CV
   - clean up post import
