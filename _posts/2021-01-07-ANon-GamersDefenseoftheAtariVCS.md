@@ -34,7 +34,7 @@ To not let these words sound insincere. I mean them. On day one, I saw an incomp
 
 Many of the backers, myself included, were earnest and honest about what the VCS is. They kept track of the press updates, and dealt with the teasing and hate of YouTube an entire diverse array of console and gaming critics. We stayed in contact with Atari knowing the product didn't even exist yet, filled out their surveys with detailed specialized interests, and sweated through the bad press telling us that at best we were going to get a potato with a USB port for a glowstick of a controller. We truly invested in the potential for something different in the gaming world that hasn't been seen under a household gaming brand for a long time: console, PC, or otherwise, and we were okay with it being half-baked as long as it happened. And we were willing to spend $400 for it to happen. Don't take that demand lightly! Not everyone who got this thing did it for nostalgia or to take a look at it, say, "Neat!" and put it in our attic or on a display shelf next to our Funko Pop!s.
 
-## So, what is the Atari VCS?
+## So, what is the Atari VCS? IDK, ask the Nu-Freax.
 
 At this point, I've told you point-blank: _we wanted a glitchy console_. "But WHY???"
 
@@ -56,7 +56,7 @@ Demoscene artists loved games because they were a part of the videogame media th
 
 The "console wars" have failed me, and in some small way they’ve likely failed any actual game lover too. You never inherited demoscene’s culture of their self-styled ASCII-crafty 8-bit chiptune mastery wizardy. No, you are within the confines mostly linearly provided hardware every 4 to 8 years with fairly clear platform boundaries where in order to be a "progressive" gamer responding to trauma inflicted by who you assumed was a 16 year old bully over a headset, "I treat all platforms equally! They're all machines that play Games after all. Can you not just let people be happy?!" You and I were both born in this world of gaming.
 
-## An Memoir of a Potential "Gamer"
+## Memoir of a Nu-Freak
 
 Recall, I am NOT a gamer. There is a reason for this tragedy. I was born in 1990 to a farm kid and a rural high school English teacher neither of whom owned a CRT TV. Forget videogames. I didn't hear the word "console" until I was in high school, nevermind think to own one. All I knew were books, sports, and classic board games, and never having friends over for any reason. I was a pretty isolated child with little to no money. My dad volunteered to coach rec league sports so that my sister and I could get out of paying fees every season. It would have taken the better part of most of my K-12 grass cutting career to have raised enough money to have gotten an Xbox considering Dad's pay rate.
 
