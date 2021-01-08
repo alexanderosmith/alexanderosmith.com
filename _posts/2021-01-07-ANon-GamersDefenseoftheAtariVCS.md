@@ -10,9 +10,6 @@ tags:
     - Gaming
     - Hacking
 ---
-
-# A Non-Gamer's Defense of the Atari VCS
-
 Dear 30-40 Year-Old Gamers,
 
 I must admit, I am not one of you. I am perhaps aptly described as a "poser" gamer by your standards. I have only just crossed the 30th year of my life, most of which has been dedicated to getting into grad school which has consumed the majority of my personality. I am an economist-turned-information scientist who considers digital culture a particular quasi-professional fascination. I am barely holding on to my last "kid-at-heart"-strings. I am not a once youthful "gamer" who has a history of nostalgia for GoldenEye or Final Fantasy. I absolutely _HATED_ Halo in high school. The first game I recall ever liking was Little Big Planet because I could hit another player with a frying pan in one hand as something reminiscent to the drunkenly toddler-like Sac Boy that my earliest gaming experiences felt like.
