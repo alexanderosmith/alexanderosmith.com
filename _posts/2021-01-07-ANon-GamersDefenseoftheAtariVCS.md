@@ -2,11 +2,13 @@
 layout: post
 title:  "A Non-Gamer's Defense of the Atari VCS"
 date:   2021-01-07 05:00:00 +0000
-image: "aosSoldering.png"
+image: "1upAndAtariController.jpg"
 categories: Digital Culture
 tags:
     - Blog
     - Digital Culture
+    - Gaming
+    - Hacking
 ---
 
 # A Non-Gamer's Defense of the Atari VCS
