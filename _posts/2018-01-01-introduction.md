@@ -18,11 +18,13 @@ Alex's research is closely tied to memetics: the study of memes. In particular t
 - Knowledge Organization
 - Document Studies
 - Cultural Analytics
+
 Their theoretical thought owes a great deal to the following topics:
 - Evolutionary Information
 - Post-Cybernetic Theories of Information
 - Bioinformation, Biophilosophy, and Biosemiotics
 - Affect in Media Studies
+
 They have practice in the following methodological lenses:
 - Content Analysis
 - Network Methods (SNA and Network Science)
