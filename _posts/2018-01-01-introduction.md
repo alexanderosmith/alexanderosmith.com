@@ -2,7 +2,7 @@
 layout: post
 title: "Introduction"
 date: 2018-01-01 15:13:18 +0200
-image: profile_PaigesPhoto.jpg
+image: "profile_PaigesPhoto_crop1.png"
 tags: [aos, about]
 categories: about
 published: true
