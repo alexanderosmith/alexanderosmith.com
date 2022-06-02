@@ -19,17 +19,21 @@ Alex's research is closely tied to memetics: the study of memes. In particular t
 - Document Studies
 - Cultural Analytics
 
-Their theoretical thought owes a great deal to the following topics:
+Alex's theoretical thought owes a great deal to the following topics:
+- Debates in Cultural Evolution (approximately 1985-2006)
 - Evolutionary Information
 - Post-Cybernetic Theories of Information
 - Bioinformation, Biophilosophy, and Biosemiotics
 - Affect in Media Studies
+- Evolutionary Epistemology
+- Deleuzian Ontology
 
 They have practice in the following methodological lenses:
 - Content Analysis
 - Network Methods (SNA and Network Science)
 - Regression
 - Trace Ethnography
+
 Future research intends to carve out empirically applicable approaches to evolutionary culture within an Information Studies lens. This research arch continues a datafication project of culture connected to parallel theory development.
 
   * [Learn more about Alexander](/AboutAlexander/)
