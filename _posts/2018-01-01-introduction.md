@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introduction"
-date: 2018-01-01 15:13:18 +0200
+date: 2022-06-01 15:13:18 +0200
 image: "profile_PaigesPhoto_crop1.png"
 tags: [aos, about]
 categories: about
@@ -10,7 +10,7 @@ published: true
 
 # Introduction
 
-Alexander is an ABD PhD candidate of Information Science & Technology at Syracuse University's iSchool. They are an affiliate of Center for Computational and Data Sciences (CCDS) and [Metadata Lab]{https://ischool.syr.edu/research/metadata-lab/}. Between 2019 and 2021, they worked with BITS Lab specifically working on the Illuminating Project. They have a Masters and Bachelors in Economics from Georgia State University and University of West Georgia respectively.
+Alexander is an ABD PhD candidate of Information Science & Technology at Syracuse University's iSchool. They are an affiliate of Center for Computational and Data Sciences (CCDS) and [Metadata Lab](https://ischool.syr.edu/research/metadata-lab/). Between 2019 and 2021, they worked with BITS Lab specifically working on the Illuminating Project. They have a Masters and Bachelors in Economics from Georgia State University and University of West Georgia respectively.
 
 Alex's research is closely tied to memetics: the study of memes. In particular they are developing theoretical and methodological lenses to approach evolutionary information of culture. Such approaches currently are closing the gaps between the theoretical memetics research that was developing at the start of the 21st century and the datafication processes of Internet Memetics which developed a decade later. Branching off of memetics, Alex is interested in connecting to the following empirical spaces:
 - Internet Memetics (an interdisciplinary branch of digital culture & media studies)
