@@ -61,7 +61,7 @@ maybe they ate food somewhere. You may or may not even suspect they might be veg
 the occasional chicken parm. That’s it though. That’s about all you’ve got.
 Some smarty-pants people have gotten closer to figuring out how we can find these connections
 quicker, though. These in-betweens have names social network scholars have called “network
-gatekeepers” or “weak ties” or other such mumbo jumbo that explains who gets what information andhow. But even these people don’t know Kung Fu yet. If they did, then you as well, would certainly
+gatekeepers” or “weak ties” or other such mumbo jumbo that explains who gets what information and how. But even these people don’t know Kung Fu yet. If they did, then you as well, would certainly
 know Kung Fu.
 
 You didn’t even know until about 10 minutes ago you were reading a paper about spaghetti. Did
@@ -88,7 +88,7 @@ only like three of the literal thousands of them are about spaghetti. You could 
 Slaps Roof of Car meme, and never realize it started with a joke about spaghetti. There’s the more
 obvious ones like Eminem’s mom’s spaghetti. You might know of “Somebody Toucha My Spaghet”
 which comes from a really old animation. You might even be aware that some people think spaghetti is
-affiliated with bachelorhood because apparently fellas suck at cooking. (I kind of do, frankly.) Some
+affiliated with bachelorhood because apparently fellas suck at cooking. Some
 people might subscribe to Pastafarianism, which is kind of memetic in its own way. Can I get a
 “Ramen” here? Know Your Meme has a page just dedicated to spaghetti even though it isn’t exactly
 meme itself; they’re just admitting it’s omnipresence and its relation to “food porn” memes. The point
@@ -97,7 +97,7 @@ except that it’s still there, and that fascinates me. Spaghetti has this odd w
 your clean kitchen counter and the awkward spot between your garbage can and the stove that never
 gets cleaned. These are places for ‘wholesome memes’ and ‘shitposting’ respectively.
 
-But yet despite the fact that you may not literally see spaghetti in your memes, perhaps there’s a
+But yet despite the fact that you may not literally see spag tti in your memes, perhaps there’s a
 “spaghetti” in your life. Perhaps there are objects that marinate your social experiences that you don’t
 really think about that add a kind of emotive flavor to your tastes. This... THIS... is what memes do!
 Sure, the jokes on the surface seem absurd. Sure, they might be related to escapism. Maybe they are
