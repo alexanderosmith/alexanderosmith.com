@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Memes: A Discussion on Units or Sign-Systems"
+date:   2022-06-02 01:00:00 +0000
+image: "Piccolo_vs_Spaghetti.jpg"
+categories: memes
+tags:
+  - Blog
+  - Social Media
+  - Memes
+---
+## Memetics: "It's just a Theory"
+
+Once upon a time, Richard Dawkins introduced the concept of "meme" with a somewhat strong analogy relative to the gene.[^1] Following the argument of Cavelli-Sforza and Feldman [^2], he outline why it is rational to assume a fundamental particle of culture would exist. If genes are transmittable forms of measurable biological life, then certainly, if evolutionary culture is to exist, there must be a similar measurable form of cultural life, proposed Dawkins.
+
+Later, he admitted such an analogy was better understood as not quite so literal before largely abandoning the discussion of memes altogether. Dawkins's disillusionment with memetics was matched by many who had been publishing theoretical discussions of how memes might exist: what they are made of, how they can be measured, and their relationship to other cultural objects. The nuances of these discussions lasted the better part of 3 decades without agreement on any of the above in philosophy or cultural anthropology. Then both philosophy and cultural anthropology moved on to different discussions and left for other analogies for cultural evolution, and hardly ever looked back.
+
+At least, for those who were a part of the anthropological interests of memetics, this is true. However, it was becoming clear about the time these theoretical discussions reached their conclusions, evolutionary culture was going to find an empirical place in digital contexts. Memetics, loose ends and all, that with or without clear theory, found a home in visual cultural study of images online. Initially these images were mostly illustrated by the use of [meme generator websites](https://imgflip.com/memegenerator) with the use of Impact font and template images, but niche areas of the internet such as 4chan and Tumblr suggested a less engineered and more fluid and organic meme where "ideas" were less tied to designed connections of image and text. Internet Memetics was born and offered memetics its first academically acceptable empirical space in the early 2010s.[^3]
+
+## Memetics: No Longer "Just a Theory"
+
+At first, this space seemed to rejoice itself at finding something of which people could agree to call "memes" and develop an empirically valuable space for both human sciences and critical research in a variety of disciplines. However, with increases in popular interests in this research, soon it became a haven for studying a lot of nasty aspects of culture. With this, questions arose in relation to social media design, content moderation, and quantifiable risks of speech.
+
+At present, large amounts of funding come from intelligence agencies, and social media platforms like Facebook to try to make sense of memetic speech, find bad actors, and augment flows of information. Yet, the causal implications of altering cultural outcomes are, firstly, not very well tested in public academic research in relation to social media. And secondly, the ethics of this sort of management requires some critical concern. With largely good intentions among the research community, there is a serious danger of funding agencies interested in this kind of research to generate powerful cybernetic apparatuses working beyond mitigating harm, and working instead to reinstate nationalistic boundaries, western ethical views, and to create a 3rd party orchestrated national censorship to the internet. That is to say, while platforms (especially in the western world) are largely private, national pressures enable the ability to censor under the guise that "censorship" legally requires a public. Where can speech be free if all social media is private? Certainly, platform moderation is needed as there are material risks to marginalized people, and arguably every platform exists as a product for speech management.[^4]
+
+However, in order to know what "good" moderation is, a genuine attempt to understand how cultural ideas are adopted needs to be reinstated in memetics. This is a topic that Internet Memetics largely wished to avoid. To disagree with Dawkins's theory or point to the discontinuity among those theories of memetic cognition is in vogue. But such dismissals do not solve the problem of understanding how speech, cognition, and actions are predictably connected. All it does is help research areas frame their limitations in study without having to address real problems. Yet, for the sake of making "good" platform policy, we have circled back at square one. How are memes adopted into one's thoughts? If we cannot answer this question, we cannot know when and how a moderation tactic is "good."
+
+On Academic Twitter, when such questions are asked as if they are new, frequently they are met with answers like, "Why does nobody read INSERT-RESEARCH-AREA-HERE?! We talk about this all the time!" This is fine, and I am glad they do this work because it is informative and valuable ... to the right reader. However this work is being used to generate algorithms to moderate people and to inform policy. I am horrified by the research being produced surrounding Facebook's artificial memetic hate speech dataset. Largely, these datasets are produced with precisely the knowledge of those research areas, and yet the algorithmic output of these moderation tactics are almost always to squash genuine anger, promote western, colonialist notions of "civility" which solves almost nothing except let well-to-do parents feel less threatened by angry people online. If the academic production of critical literature and the algorithms attempting to solve cultural crises does nothing but create a digital suburb for already heavily protected western populations, I don't see the point. This only puts digital distance between "good people" and the real threat of White Nationalists, Nazis, and other bad actors. It does not solve the crises caused by the existence of enacting these ideologies. It merely ensures those with affluence will not be around those bad actors. It does nothing to protect those marginalized communities who find themselves expressing frustration because of their marginalization. It only insures they will stay in the unprotected digital world, which is likely where their anger comes from in the first place.
+
+In order for these policies and algorithms to work, they have to be predictive of culture in more than a critical, historical lens which glorifies its myopic context. To a theorist, perhaps these largely disconnected spaces of cultural contexts can be synthesized into a more general and actionable policies. But to a policy maker, these publications suggest causal influences that (gasp) aren't *quantified*. They are *dangerous* suggestions that inform policies and algorithms that I would guess no critical theorist would want to put their name on. Digital culture scholars, memeticists included, have to do better. It might be for the better that platforms and policy makers are not reading every critical hot take about how some community online is being marginalized by memetic speech. We need to be less myopic and disciplinary, and lend ourselves more to predictability if we want to actually produce a healthy cultural world for everyone. The trouble is, policy makers and algorithm producers will *never* be disciplinary enough to enact what these critical approaches argue in full, and they shouldn't. There's too many of these theories, most of which don't agree with each other. Such a space would be a mess, not a solution.
+
+
+## SUGGESTED AFFILIATED READING
+[^1]: Dawkins, R. (1976). The Selfish Gene. Oxford University Press.
+
+[^2]: Cavalli-Sforza, L. L., & Feldman, M. W. (1973). Cultural versus biological inheritance: phenotypic transmission from parents to children.(A theory of the effect of parental phenotypes on children's phenotypes). American journal of human genetics, 25(6), 618.
+
+[^3]: Shifman, L. (2013). Memes in a digital world: Reconciling with a conceptual troublemaker. Journal of Computer-Mediated Communication, 18(3), 362–377. Scopus. https://doi.org/10.1111/jcc4.12013
+
+[^4]: Gillespie, T. (2018). Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions that Shape Social Media. Yale University Press.
+
+
+:	Cannizzaro, S. 2016. Internet memes as internet signs: A semiotic view of digital culture. Internetimeemid kui internetimärgid: semiootiline pilk digitaalkultuurile. 44, 4 (Oct. 2016), 562–586. DOI:https://doi.org/10.12697/SSS.2016.44.4.05.
