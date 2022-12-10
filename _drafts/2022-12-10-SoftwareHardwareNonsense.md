@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Software, Hardware, and Things Between"
+date:   2022-12-09 05:00:00 +0000
+image: "theplayground2.jpg"
+categories: PhD Life
+tags:
+  - Blog
+  - Tips
+---
+
+## PhD Life: Or How We Find Ourselves Wanting
+
+Maybe you are somewhat aware of PhD life. Maybe you did one, are in one, or you are reading up on doing one. Alternatively, perhaps you just happen to know someone who did one: parent, close cousin, friend. If you have this background, this might seem fairly obvious to you, but these people *specialize* in something. That is to say, while they might come across as using big words, and coming across as book smart, they likely only understand a few things really well. Specifically, they know a few *academic subjects* well. They are not particularly well trained in many other things, and other things are not what academic training are traditionally designed for.
+
+While perhaps you might think to yourself that the person who made you aware of PhD programs has a knack for non-academic stuff, they likely did not learn those things as PhD coursework. In fact, they likely learned those things in spite of their PhD training. There are some exceptions to this. For example, often engineering PhDs or so-called professional doctorates (which are usually not PhDs but rather DPS degrees or similar) train people for private sector practice. This is not to demean what these doctorates do, but alas, they are not traditionally the culturally analogous to a PhD, or titled as they often are in Europe, DPhil programs. That is, Doctorates of Philosophy are often proudly industrially impractical programs. This is due to the stubborn belief that academic developments should exist outside of the industrial developments which develop profiteering efficiency dependent upon a singular private industry or another. That is *knowledge* should be *generalized* beyond capitalistic or nationalistic goals... supposedly. Such a view is morally arguable for sure and has been argued. The Ivory Tower has a fair share of critics. I tend to find myself arguing that academics should be somewhat pragmatic, but that its job is to avoid reduction to solving one thing for one business for example. Likewise, academics should not be so self-indulgent as to only solve one metaphysical issue in one theoretically developed space.
+
+But what has this to do with anything? Well, frankly, whether we like it or not, we are all specialists to some degree. Whether we are academics or not, we all have a practice in understanding something more than someone else. One makes choices to do their best with the geographic or socially available information at hand.
+
+(In)famously, F.A. Hayek pointed this out about the uses of knowledge in society in order to show how utopian socialism could never be achieved. It would be many years later that Donna Haraway would make a contextually distinct but metaphysically similar argument in situated knowledges in scientific practice. While politically distinct, these arguments provide me the resonances of the two prongs of a tuning fork: on one hand is a warning that academia will never be able to emulate industry and on the other is industry of science practice never being able to generate utopian generalized knowlege.
+
+Yet, as a pragmatist to the core, I still seek to escape these boundaries in some way. It is not that I think that we can know and do everything as a utopian vision, but rather a pragmatic assemblage resonating between these two can be socially optimal. However, in a PhD, as anyone will find, there are pressures to give in on both fronts: the materially industrial and the abstractly generalized. I say a great PhD program to offer the scales to balance, but it is up to the student to find the way to balance them. That is why I am writing, and I will explain through my own experience in tinkering.
+
+## Tinkering: A Mentality for Professional Amateurs
+
+The thing is, with PhDs, you learn what you are told. Your advisor publishes in a specialized journal; you publish in that specialized journal. Your advisor goes to a conference; you go to that conference. Your advisor uses linear analysis in R; you use linear analysis in R. But, we all long for escape, and to some degree we get it. At the most marginal, your advisor might let you play around with a new idea that fits within the journal your advisor publishes in using a new button in STATA, using new data. Maybe you can even go so far as to go to a different workshop than your advisor at that conference. You know, marginally becoming your own academic identity.
+
+However, ideally, we get more than that for ourselves. We gain some kind of identity distinct from our mentors. This is a common discussion among PhD students. We wonder if we really are doing something new or if that is even possible. Through the formalized practices of being mentored in academia, it is difficult to say what makes us unique almost until the day of our dissertation defense in some cases. That is because we are so dedicated to their guidance, it is hard to say we did something they did not ask for.
+
+This is where tinkering is essential. Doing something not asked of us that we were not trained for, but nevertheless are passionate to understand, often gives us space to carve out an identity. Tinkering fills that gap. It suggests a place where we can fail but try outside of our usual academic training. That is, we move into an amateur status in order to find new things to connect to.
+
+As an example of this in my own practice, I picked up memetics. While my advisor suggested I might be interested in it, the choice was mine, and it was not his area of research. In fact, before giving it a shot, I read three books, a few dozen highly cited articles, and wrote a few ideas down over the course of a couple weeks before deciding to tell my advisor that I would consider studying memes professionally. My advisor took a huge risk in letting me choose a field that was not exactly his. In doing so, I took on a huge academic risk of connecting ideas nobody around me was working on to a committee with little experience to make sense of the topic. I knew the risk, and so did my advisor as best as I know. However, this left me with the issue, I had to be the expert. I could not be mentored into expertise in a traditional academic sense. I had a steep learning curve ahead of me in order to become the expert in describing, teaching, and developing academic arguments around memes in an area of research which had basically no experience in it. That, as it happens, took a grueling and painfully isolating 3 years before my advisor and dissertation committee started understanding what I was saying. Those years were all tinkering in relative isolation.
+
+[Image Attribution: Alexander O. Smith](/AboutAlexander/)
