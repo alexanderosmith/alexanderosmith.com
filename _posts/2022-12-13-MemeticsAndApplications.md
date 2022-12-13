@@ -2,7 +2,7 @@
 layout: post
 title:  "Memetics & Applications: A Brainstorm Exercise"
 date:   2022-12-13 01:00:00 +0000
-image: "theplayground2.jpg"
+image: "IsThisIlluminati.png"
 categories: memes
 tags:
   - Blog
@@ -63,4 +63,4 @@ Memetics, however, could pick up a couple of core ideas from HCI despite the dis
 
 In summary, memetics could gain from Pragmatism and looking to material frameworks to develop a datafiable empirical study. Eventually memetic structures which can be relational between technology and culture will systematically be found by doing this which are not specifically naturalistic or as abstract or scientifically elusive as design constructions of platform policies and software. In order to see the value of such an approach will likely happen in seeing better technology designs as well as more ethical approaches to managing digital policies and culturally contextual platform updates. And furthermore, the ethics of these ideas will not merely be delegated to abstractions of ideological frameworks of a select few disconnected researchers and their personal ethical interests.
 
-[Image Attribution: Alexander O. Smith](/AboutAlexander/)
+[Image Attribution: Know Your Meme](https://i.kym-cdn.com/photos/images/original/002/261/811/dc6.jpg)
