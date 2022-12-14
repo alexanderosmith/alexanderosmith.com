@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Memetics & Applications: A Brainstorm Exercise"
+title:  "Memetics and Applications: A Brainstorm Exercise"
 date:   2022-12-13 01:00:00 +0000
 image: "IsThisIlluminati.png"
 categories: memes
@@ -9,7 +9,7 @@ tags:
   - Memes
 ---
 
-## Memetics As It Stands
+## Memetics as It Stands
 
 Presently, memetics is arguably merely a proposed science, not actively a research field. Although, inarguably, memetics now has a large (and disconnected) body of empirical work. Memes provide a datafied discussion across areas of communication, linguistics, cognition, education, data science, and so on. This also includes their inspiration to existing sciences, humanities, and philosophies. Yet for some reason, the two main theories of memetics, the neo-Darwinian paradigm developed in line with Dawkins and the communication and media theory of Internet Memetics, have yet to convince many outside of their research area that memetics provides an adequately predictive or descriptive science of culture. Rather, often the theoretical results remain fodder and development in digital humanities.
 
