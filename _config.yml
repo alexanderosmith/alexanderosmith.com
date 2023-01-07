@@ -39,6 +39,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-include-cache
+  - jekyll-category-pages
 
 paginate: 7
 paginate_path: "/page/:num/"
