@@ -11,7 +11,7 @@ tags:
 
 ## Book Review: _Comics and Stuff_ by Henry Jenkins
 
-Jenkins says you can read these chapters independently as if they were articles to themselves. That's only sort of true. Further, that _could_ have been true and I think _should_ have been true. Each chapter builds on the last, so there is an arch of the book that is a close textual analysis driven around-about various graphic novel oriented representations of "stuff."
+Jenkins says you can read these chapters independently as if they were articles to themselves. That's only sort of true. Further, that _could_ have been true and I think _should_ have been. Each chapter builds on the last, so there is an arch of the book that is a close textual analysis driven around-about various graphic novel oriented representations of "stuff."
 
 In particular, the book begins with the obvious: "stuff" here is comic oriented account of materialism of daily life. Then he points to the fact that comics use "stuff" to curate and invest in memories. In doing so, a narrative becomes more interactive and allows for (dis)continuities that are subjective across readers. That is, comics account for authors' literal collecting habits of stuff as a semiotic reflexivity of memory itself which creates the comic based narrative. As such, this book offers some hot takes about affective investments in between the reader and the artist.
 

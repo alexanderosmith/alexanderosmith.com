@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Alexander O. Smith - Curriculum Vitae"
-description: "Economist and Information Scientist"
+description: "Information Scientist"
 permalink: /cv.html
 ---
 <div class="print-content">  
