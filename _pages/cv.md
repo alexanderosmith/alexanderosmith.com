@@ -48,11 +48,14 @@ permalink: /cv.html
 
 {{ pageContent | markdownify }}
 
-</div>
-<object
-    type="application/pdf"
-    data="https://www.alexanderosmith.com/assets/pdfs/AOS_CurriculumVitae.pdf?fbclid=IwAR3msTy92Jt_Rv4mrJT0az9WL3Iq_fstQcKeztLEnsx-qI36KzesGafNAQg"
-    width="600"
-    height="700"
->
-</object>
+[view pdf](/assets/pdfs/AOS_CurriculumVitae.pdf)
+
+
+[//]: # </div>
+[//]: # <object
+[//]: #     type="application/pdf"
+[//]: #     data="https://www.alexanderosmith.com/assets/pdfs/AOS_CurriculumVitae.pdf?fbclid=IwAR3msTy92Jt_Rv4mrJT0az9WL3Iq_fstQcKeztLEnsx-qI36KzesGafNAQg"
+[//]: #     width="600"
+[//]: #     height="700"
+[//]: # >
+[//]: # </object>
