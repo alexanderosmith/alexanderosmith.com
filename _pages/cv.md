@@ -48,7 +48,7 @@ permalink: /cv.html
 
 {{ pageContent | markdownify }}
 
-[view pdf](/assets/pdfs/AOS_CurriculumVitae.pdf)
+[view CV](https://www.alexanderosmith.com/assets/pdfs/AOS_CurriculumVitae.pdf?fbclid=IwAR3msTy92Jt_Rv4mrJT0az9WL3Iq_fstQcKeztLEnsx-qI36KzesGafNAQg)
 
 
 [//]: # </div>
