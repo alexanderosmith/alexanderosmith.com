@@ -5,6 +5,9 @@ description: "Information Scientist"
 permalink: /cv.html
 ---
 
+
+[view CV](/assets/pdfs/AOS_CurriculumVitae.pdf)
+
 <div class="print-content">  
 
 {% capture pageContent %}  
@@ -49,6 +52,3 @@ permalink: /cv.html
 {{ pageContent | markdownify }}
 
 </div>
-
-
-[view CV](/assets/pdfs/AOS_CurriculumVitae.pdf)
