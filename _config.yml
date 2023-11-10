@@ -47,6 +47,13 @@ paginate_path: "/page/:num/"
 include:
   - _pages
 
+defaults:
+  # assets
+  - scope:
+      path: "assets/pdfs"
+    values:
+      pdf: true
+
 sass:
   sass_dir: _sass
   style: compressed
