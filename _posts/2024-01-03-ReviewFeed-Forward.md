@@ -41,7 +41,7 @@ As such, at the end of Hansen's book, I'm more convinced that Hansen is an antih
 
 [^2]: Shaviro, S. (2009). _Without Criteria: Kant, Whitehead, Deleuze, and Aesthetics_. MIT press.
 
-[^3]: Whitehead, A.N. (1929|1978). _Process and Reality_. Free Press.
+[^3]: Whitehead, A.N. (1978). _Process and Reality_. Free Press.
 
 [^4]: Deleuze, G. (1989). _Cinema 1: The Movement Image_. University of Minnesota Press.
 
