@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Feed-Forward"
-date:   2023-11-11 12:00:00 +0000
+date:   2024-01-03 12:00:00 +0000
 image: "ProcessPhilosophy.png"
 categories: reviews
 tags:
