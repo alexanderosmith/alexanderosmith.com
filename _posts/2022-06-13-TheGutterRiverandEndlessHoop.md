@@ -11,9 +11,9 @@ tags:
 ---
 ## Memes and Movements
 
-Memes move through time. If they are these bits of culture that spread, across experiences, they certainly move through time. I could also reference to digital space, as Shifman does definitionally [^1], when referring to memes traversing through platform to platform. While one might see this spacially, it is somewhat of an abstraction of our senses of memes. For simplicity here, let's focus on the time-scale of memetics which is more grounded in our cognition.
+Memes move through time. If they are these bits of culture that spread, across experiences, they certainly move through time. I could also reference to digital space, as Shifman does definitionally [^1], when referring to memes traversing through platform to platform. While one might see this spatially, it is somewhat of an abstraction of our senses of memes. For simplicity here, let's focus on the time-scale of memetics which is more grounded in our cognition.
 
-When scrolling through the internet or moving from one platform to another, this is more interpretable as time passing than movements through space. It is fair to ultimately argue that the internet and the physical infrastructures which build them are spacialized across servers and screen pixels' distances from each other. However, putting this aside for the moment, enables me to say something somewhat interesting about how memes become culturally embodied, and how this is somewhat joined to and differentiated from particularly spacial media: comics.
+When scrolling through the internet or moving from one platform to another, this is more interpretable as time passing than movements through space. It is fair to ultimately argue that the internet and the physical infrastructures which build them are specialized across servers and screen pixels' distances from each other. However, putting this aside for the moment, enables me to say something somewhat interesting about how memes become culturally embodied, and how this is somewhat joined to and differentiated from particularly spacial media: comics.
 
 So for now, memetic "movements" here are time oriented more so than spacial.
 
