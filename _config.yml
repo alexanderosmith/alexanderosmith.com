@@ -1,5 +1,5 @@
 title: Alexander O. Smith
-description: "PhD Information Science, iSchool, Syracuse University"
+description: "PhD in Information Science & Technology, iSchool, Syracuse University"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.alexanderosmith.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -9,7 +9,7 @@ author-image:   aos_bw.png
 author-job:     PhD, iSchool, Syracuse University
 author-email:   aos11409@gmail.com # Add your email for contant form.
 author-twitter: alexander0wen # Add your twitter account
-about-author:  I have a Ph.D. and I study memes, which is the study of dreams.
+about-author:  I have a Ph.D. and I study memes.
 
 # Social settings
 social-twitter:   alexander0wen
