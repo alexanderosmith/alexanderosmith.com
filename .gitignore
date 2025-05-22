@@ -4,15 +4,14 @@
 ### Jekyll ###
 _site/
 .sass-cache/
+vendor/
 .jekyll-cache/
 .jekyll-metadata
 .bundle/
-.icloud
-.DS_Store
-Gemfile.lock
-vendor/
 *.gem
 *.rb
 .DS_Store
+Gemfile.lock
+
 
 # End of https://www.toptal.com/developers/gitignore/api/jekyll
