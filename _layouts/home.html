@@ -31,35 +31,43 @@ layout: default
       <div class="c-social__title">Social</div>
       <ul class="c-social__list u-lists-reset">
         {% if site.social-twitter %}
-          <li class="c-social__item"><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><div data-icon='ei-sc-twitter' data-size='s'></div></a></li>
+          <li class="c-social__item"><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
         {% else %}
         {% endif %}
         {% if site.social-facebook %}
-          <li class="c-social__item"><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><div data-icon='ei-sc-facebook' data-size='s'></div></a></li>
+          <li class="c-social__item"><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
         {% else %}
         {% endif %}
         {% if site.social-github %}
-          <li class="c-social__item"><a href="https://github.com/{{site.social-github}}" target="_blank"><div data-icon='ei-sc-github' data-size='s'></div></a></li>
+          <li class="c-social__item"><a href="https://github.com/{{site.social-github}}" target="_blank"><i class="fa-brands fa-github"></i></a></li>
         {% else %}
         {% endif %}
         {% if site.social-pinterest %}
-          <li class="c-social__item"><a href="https://pinterest.com/{{site.social-pinterest}}" target="_blank"><div data-icon='ei-sc-pinterest' data-size='s'></div></a></li>
+          <li class="c-social__item"><a href="https://pinterest.com/{{site.social-pinterest}}" target="_blank"><i class="fa-brands fa-pinterest"></i></a></li>
         {% else %}
         {% endif %}
         {% if site.social-instagram %}
-          <li class="c-social__item"><a href="https://instagram.com/{{ site.social-instagram }}" target="_blank"><div data-icon='ei-sc-instagram' data-size='s'></div></a></li>
+          <li class="c-social__item"><a href="https://instagram.com/{{ site.social-instagram }}" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
         {% else %}
         {% endif %}
         {% if site.social-youtube %}
-          <li class="c-social__item"><a href="https://youtube.com/{{ site.social-youtube }}" target="_blank"><div data-icon='ei-sc-youtube' data-size='s'></div></a></li>
+          <li class="c-social__item"><a href="https://youtube.com/{{ site.social-youtube }}" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
         {% else %}
         {% endif %}
         {% if site.social-vk %}
-          <li class="c-social__item"><a href="https://vk.com/{{ site.social-vk }}" target="_blank"><div data-icon='ei-sc-vk' data-size='s'></div></a></li>
+          <li class="c-social__item"><a href="https://vk.com/{{ site.social-vk }}" target="_blank"><i class="fa-brands fa-vk"></i></a></li>
         {% else %}
         {% endif %}
         {% if site.social-linkedin %}
-          <li class="c-social__item"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><div data-icon='ei-sc-linkedin' data-size='s'></div></a></li>
+          <li class="c-social__item"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+        {% else %}
+        {% endif %}
+        {% if site.social-mastodon %}
+          <li class="c-social__item"><a href="https://hcommons.social/@{{site.social-mastodon}}" target="_blank"><i class="fa-brands fa-mastodon"></i></a></li>
+        {% else %}
+        {% endif %}
+        {% if site.social-bluesky %}
+          <li class="c-social__item"><a href="https://bsky.app/profile/{{site.social-bluesky}}" target="_blank"><i class="fa-brands fa-bluesky"></i></a></li>
         {% else %}
         {% endif %}
       </ul>
