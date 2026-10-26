@@ -3,29 +3,8 @@ layout: home
 title: Contact
 permalink: /contact/
 ---
-<div class="c-form-box o-opacity">
-    <form class="c-form" name="contact" method="POST" data-netlify="true">
-    <a href="/"><div class="c-form-bnt__close"><i class="fa-solid fa-xmark" aria-hidden="true"></i></div></a>
-    <div class="c-form__title">You can contact me!</div>
-    <div class="c-form__group">
-      <label for="form-name">Your Name (Required)</label>
-      <input class="c-form__input" id="form-name" type="text" name="name" required>
-    </div>
-    <div class="c-form__group">
-      <label for="form-email">Your Email (Required)</label>
-      <input class="c-form__input" id="form-email" type="email" name="_replyto" required>
-    </div>
-    <div class="c-form__group">
-      <label for="form-subject">Subject</label>
-      <input class="c-form__input" id="form-subject" type="text" name="_subject">
-    </div>
-    <div class="c-form__group">
-      <label for="form-text">Your Message (Required)</label>
-      <textarea class="c-form__input" id="form-text" name="text" rows="10" required></textarea>
-    </div>
-    <div class="c-form__group">
-      <button class="c-btn c-btn--secondary c-btn--big c-btn--shadow" type="submit">Send</button>
-    </div>
-    <input type="hidden" name="_next" value="/contact/thanks/" />
-  </form>
-</div> <!-- /.c-form-box -->
+<div class="c-center">
+  <a class="c-btn c-btn--primary c-btn--round c-btn--shadow" href="mailto:{{ site.author-email }}">
+    <i class="fa-solid fa-envelope" aria-hidden="true"></i> {{ site.author-email }}
+  </a>
+</div>

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "The Gutter, the River, and an Endless Hoop"
 date:   2022-06-13 01:00:00 +0000
 image: "Panels-UnderstandingComics-ScottMcCloud-1994.png"
@@ -65,4 +64,4 @@ The memetic river is this kind of information. Memes can actualize in new things
 [^6]: Faucher, K.X. (2013). *Metastasis and Metastability: A Deleuzian Approach to Information*.Sense Publishers.
 
 
-[Cover Image Attribution: Scott McCloud, Blood in the Gutter. *Understanding Comics*, p. 67, 1993](http://www.scottmccloud.com)
+[Cover Image Attribution: Scott McCloud, Blood in the Gutter. *Understanding Comics*, p. 67, 1993](https://www.scottmccloud.com)

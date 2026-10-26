@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Comics and Stuff"
 date:   2023-01-09 12:00:00 +0000
 image: "theplayground2.jpg"

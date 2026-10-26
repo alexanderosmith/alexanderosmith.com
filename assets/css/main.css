@@ -521,208 +521,6 @@ dd {
   margin-left: var(--base-spacing-unit);
 }
 
-/*
-  Syntax Highlighting
-*/
-.highlight {
-  background: #333333;
-}
-.highlighter-rouge .highlight {
-  background: #eef;
-}
-.highlight .c {
-  color: #998;
-  font-style: italic;
-}
-.highlight .err {
-  color: #a61717;
-  background-color: #e3d2d2;
-}
-.highlight .k {
-  font-weight: bold;
-}
-.highlight .o {
-  font-weight: bold;
-}
-.highlight .cm {
-  color: #998;
-  font-style: italic;
-}
-.highlight .cp {
-  color: #999;
-  font-weight: bold;
-}
-.highlight .c1 {
-  color: #998;
-  font-style: italic;
-}
-.highlight .cs {
-  color: #999;
-  font-weight: bold;
-  font-style: italic;
-}
-.highlight .gd {
-  color: #000;
-  background-color: #fdd;
-}
-.highlight .gd .x {
-  color: #000;
-  background-color: #faa;
-}
-.highlight .ge {
-  font-style: italic;
-}
-.highlight .gr {
-  color: #a00;
-}
-.highlight .gh {
-  color: #999;
-}
-.highlight .gi {
-  color: #000;
-  background-color: #dfd;
-}
-.highlight .gi .x {
-  color: #000;
-  background-color: #afa;
-}
-.highlight .go {
-  color: #888;
-}
-.highlight .gp {
-  color: #555;
-}
-.highlight .gs {
-  font-weight: bold;
-}
-.highlight .gu {
-  color: #aaa;
-}
-.highlight .gt {
-  color: #a00;
-}
-.highlight .kc {
-  font-weight: bold;
-}
-.highlight .kd {
-  font-weight: bold;
-}
-.highlight .kp {
-  font-weight: bold;
-}
-.highlight .kr {
-  font-weight: bold;
-}
-.highlight .kt {
-  color: #458;
-  font-weight: bold;
-}
-.highlight .m {
-  color: #099;
-}
-.highlight .s {
-  color: #d14;
-}
-.highlight .na {
-  color: #008080;
-}
-.highlight .nb {
-  color: #0086B3;
-}
-.highlight .nc {
-  color: #458;
-  font-weight: bold;
-}
-.highlight .no {
-  color: #008080;
-}
-.highlight .ni {
-  color: #800080;
-}
-.highlight .ne {
-  color: #900;
-  font-weight: bold;
-}
-.highlight .nf {
-  color: #900;
-  font-weight: bold;
-}
-.highlight .nn {
-  color: #555;
-}
-.highlight .nt {
-  color: #000080;
-}
-.highlight .nv {
-  color: #008080;
-}
-.highlight .ow {
-  font-weight: bold;
-}
-.highlight .w {
-  color: #bbb;
-}
-.highlight .mf {
-  color: #099;
-}
-.highlight .mh {
-  color: #099;
-}
-.highlight .mi {
-  color: #099;
-}
-.highlight .mo {
-  color: #099;
-}
-.highlight .sb {
-  color: #d14;
-}
-.highlight .sc {
-  color: #d14;
-}
-.highlight .sd {
-  color: #d14;
-}
-.highlight .s2 {
-  color: #d14;
-}
-.highlight .se {
-  color: #d14;
-}
-.highlight .sh {
-  color: #d14;
-}
-.highlight .si {
-  color: #d14;
-}
-.highlight .sx {
-  color: #d14;
-}
-.highlight .sr {
-  color: #009926;
-}
-.highlight .s1 {
-  color: #d14;
-}
-.highlight .ss {
-  color: #990073;
-}
-.highlight .bp {
-  color: #999;
-}
-.highlight .vc {
-  color: #008080;
-}
-.highlight .vg {
-  color: #008080;
-}
-.highlight .vi {
-  color: #008080;
-}
-.highlight .il {
-  color: #099;
-}
-
 /* ===============
 	PAGE
 =============== */
@@ -826,35 +624,31 @@ hr {
 }
 
 /* ===============
-	PRE
+	CODE: follows the visitor's light/dark setting via light-dark()
 =============== */
-pre {
-  overflow: auto;
-  padding: 25px;
-  font-size: 14px;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  word-break: break-all;
-  font-family: Courier, monospace;
-}
-
-/* ===============
-	CODE
-=============== */
+pre,
 code {
-  overflow: auto;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  word-break: break-all;
-  font-family: Courier, monospace;
+  color-scheme: light dark;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 14px;
-  background-color: #333333;
+  color: light-dark(#24292f, #e6edf3);
+  background: light-dark(#f6f8fa, #1e1e1e);
+  border-radius: var(--global-radius);
 }
+pre { overflow: auto; padding: 20px; }
+pre code { background: none; padding: 0; }
+p code, li code { padding: 2px 5px; overflow-wrap: anywhere; }
 
-p code,
-li code {
-  padding: 3px 5px;
-}
+/* Rouge tokens (GitHub light / dark palettes) */
+.highlight :is(.c, .c1, .cm, .cs) { color: light-dark(#6e7781, #8b949e); font-style: italic; }
+.highlight :is(.k, .kc, .kd, .kn, .kp, .kr, .kt, .o, .ow) { color: light-dark(#cf222e, #ff7b72); }
+.highlight :is(.s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr, .ss) { color: light-dark(#0a3069, #a5d6ff); }
+.highlight :is(.m, .mf, .mh, .mi, .mo, .il, .na, .nb, .bp) { color: light-dark(#0550ae, #79c0ff); }
+.highlight :is(.nc, .nf, .nn, .ne) { color: light-dark(#8250df, #d2a8ff); }
+.highlight :is(.nt, .nv, .vc, .vg, .vi) { color: light-dark(#116329, #7ee787); }
+.highlight .gd { color: light-dark(#82071e, #ffdcd7); background: light-dark(#ffebe9, #67060c); }
+.highlight .gi { color: light-dark(#116329, #aff5b4); background: light-dark(#dafbe1, #033a16); }
+.highlight .err { color: light-dark(#82071e, #ffa198); }
 
 /* ===============
 	WPAPPER
@@ -1748,180 +1542,6 @@ li code {
   }
 }
 /* ===============
-	CATEGORIES
-=============== */
-.c-form-box {
-  position: absolute;
-  top: 0;
-  width: calc(100% - 40px);
-  min-height: 100vh;
-  padding: 0 20px;
-  background-color: var(--dark);
-  z-index: 1;
-}
-
-.c-form-bnt__close {
-  position: absolute;
-  top: 0px;
-  left: 0;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  transition: var(--global-transition);
-}
-.c-form-bnt__close:hover {
-  transform: scale(0.8);
-  opacity: .8;
-}
-
-.c-form {
-  position: relative;
-  width: 750px;
-  max-width: 100%;
-  margin: 40px auto;
-}
-.c-form .c-form__title {
-  margin: 0 0 40px;
-  min-width: 0;
-  border: 0;
-  padding: 0;
-  font-family: var(--heading-font-family);
-  text-transform: uppercase;
-  text-align: center;
-}
-.c-form a {
-  color: var(--text-color);
-}
-
-.c-form__group {
-  margin-bottom: 20px;
-  background-color: var(--dark);
-}
-.c-form__group label {
-  display: block;
-  text-transform: uppercase;
-  font-size: 10px;
-}
-.c-form__group input,
-.c-form__group textarea {
-  background-color: #333333;
-  width: 100%;
-  padding: 10px 15px;
-  color: var(--text-color);
-  border: 1px solid var(--blue-lighter);
-  outline: none;
-  transition: var(--global-transition);
-}
-.c-form__group input:focus,
-.c-form__group textarea:focus {
-  box-shadow: 0 4px 25px rgba(132, 135, 138, 0.1);
-}
-.c-form__group button {
-  padding: 20px;
-  text-transform: uppercase;
-  outline: none;
-  border: none;
-}
-
-.c-thank-you p {
-  position: relative;
-  padding: 20px 40px;
-  width: 750px;
-  max-width: 100%;
-  text-transform: uppercase;
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: 700;
-  margin: 40px auto 0;
-  text-align: center;
-  color: var(--dark);
-  background: linear-gradient(135deg, #55b5ad 0%, #5ec9c5 100%);
-}
-.c-thank-you p .c-form-bnt__close {
-  width: 25px;
-  height: 25px;
-  background: transparent;
-}
-.c-thank-you p a {
-  color: var(--dark);
-}
-
-@media only screen and (max-width: 900px) {
-  .c-form-box {
-    width: 100%;
-    left: 0;
-    right: 0;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .c-form-bnt__close {
-    width: 25px;
-    height: 25px;
-  }
-}
-/* ===============
-	NEWSLETTER
-=============== */
-.c-newsletter {
-  padding: 30px 0 60px;
-  margin: 0 auto;
-  border-bottom: 1px solid var(--border-color);
-}
-
-.c-newsletter__header {
-  text-align: center;
-}
-.c-newsletter__header .c-newsletter__title {
-  font-size: 14px;
-  text-transform: uppercase;
-  text-align: center;
-}
-.c-newsletter__header .c-newsletter__subtitle {
-  margin-bottom: 15px;
-}
-
-.c-newsletter-form {
-  width: 100%;
-  max-width: 750px;
-  margin: 0 auto;
-}
-.c-newsletter-form .c-newsletter-form__group {
-  display: flex;
-}
-
-.c-newsletter__email {
-  width: 70%;
-  height: 40px;
-  padding: 10px 15px;
-  border: 1px solid var(--gray-light);
-  border-right-color: transparent;
-  outline: none;
-  transition: var(--global-transition);
-}
-.c-newsletter__email:focus {
-  box-shadow: 0 4px 25px rgba(132, 135, 138, 0.1);
-}
-
-.c-newsletter__button {
-  width: 30%;
-  height: 40px;
-  color: var(--dark);
-  background-color: var(--primary-color);
-  transition: var(--global-transition);
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
-.c-newsletter__button:hover {
-  background-color: var(--primary-dark);
-}
-
-@media only screen and (max-width: 480px) {
-  .c-newsletter__button {
-    font-size: 13px;
-  }
-}
-/* ===============
 	DISQUS COMMENTS
 =============== */
 .c-comments {
@@ -2095,7 +1715,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.c-cv {
+.c-center {
   font-size: 18px;
   display: grid;
   place-items: center;

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "About Alexander"
 date:   2026-10-25 05:00:00 +0000
 image: "profile.jpg"
@@ -36,5 +35,5 @@ I also have a love of fiction despite not having as much time for it as I did fr
 I also spend a good bit of time reading philosophy and research outside of my immediate area of work and updating Wikipedia about these and all of the previous subjects mentioned.
 
   * [Alexander O. Smith CV](/cv/)
-  * [Introduction](/Introduction/)
+  * [Introduction](/introduction/)
   * [Image Attribution: Alexander O. Smith](/)

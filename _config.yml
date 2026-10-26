@@ -6,7 +6,7 @@ url: "https://www.alexanderosmith.com" # the base hostname & protocol for your s
 author-name:    Alexander O. Smith
 author-image:   aos_bw.png
 author-job:     PhD, iSchool, Syracuse University
-author-email:   aos11409@gmail.com # Add your email for contant form.
+author-email:   aos11409@gmail.com # shown on /contact/
 author-twitter: alexander0wen # Add your twitter account
 about-author:  I have a Ph.D., I study memes, I currently work for the National Science Foundation.
 
@@ -21,6 +21,10 @@ posts_per_page: 7
 
 include:
   - _pages
+
+defaults:
+  - scope: { type: posts }
+    values: { layout: post }
 
 # Exclude from processing.
 exclude:

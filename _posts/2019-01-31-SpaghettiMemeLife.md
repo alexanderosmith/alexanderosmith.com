@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Spaghetti Meme Life"
 date:   2019-01-31 01:00:00 +0000
 image: "Piccolo_vs_Spaghetti.jpg"

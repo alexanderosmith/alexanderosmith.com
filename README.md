@@ -46,14 +46,11 @@ Netlify builds with `bundle exec jekyll build` (see `netlify.toml`, which pins R
 - Sidebar social links: `_data/social.yml`
 - CV: `assets/pdfs/AOS_CurriculumVitae.pdf`, linked from `/cv/`
 
-## To Do List
-
-- Clean up post import
-- Clean up code blocks to match dark mode
-
 ## Changes
 
-- Switched contact form from Formspree to Netlify Forms
+- Removed the contact form (Formspree, then Netlify Forms); `/contact/` shows the email address
+- Code blocks follow the visitor's light/dark setting
+- Posts get `layout: post` from `_config.yml` defaults
 - Removed G+
 - Dark colour scheme (background `#111111`, text `#AAAAAA`), now in `_data/style.yml`
 - Removed all Jekyll plugins and Sass; SEO, feed and sitemap are plain Liquid
@@ -74,7 +71,7 @@ Check the theme in action [Demo](https://flexton.netlify.com/) ![Page preview](h
 *   100% responsive and clean theme
 *   Optimized for mobile devices
 *   Included site search
-*   Contact page (Netlify Forms)
+*   Contact page (email link)
 *   Post sharing
 *   Disqus comments
 *   Social media profiles

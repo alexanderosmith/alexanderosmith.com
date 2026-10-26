@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Epistemology of Noise"
 date:   2023-11-11 12:00:00 +0000
 image: "AnEpistemologyofNoise_BlogEdit.png"
