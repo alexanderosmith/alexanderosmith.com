@@ -1,0 +1,26 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.data.seo.blog_title | xml_escape }}</title>
+    <link>{{ '/' | absolute_url }}</link>
+    <description>{{ site.description | xml_escape }}</description>
+    <language>{{ site.data.seo.locale | replace: '_', '-' | downcase }}</language>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <atom:link href="{{ page.url | absolute_url }}" rel="self" type="application/rss+xml"/>
+    {%- for post in site.posts limit: 10 %}
+    <item>
+      <title>{{ post.title | strip_html | xml_escape }}</title>
+      <link>{{ post.url | absolute_url }}</link>
+      <guid isPermaLink="false">{{ post.id | absolute_url }}</guid>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      {%- for c in post.categories %}
+      <category>{{ c | xml_escape }}</category>
+      {%- endfor %}
+      <description>{{ post.content | xml_escape }}</description>
+    </item>
+    {%- endfor %}
+  </channel>
+</rss>

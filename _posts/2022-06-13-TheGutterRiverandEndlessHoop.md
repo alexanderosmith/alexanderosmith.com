@@ -1,6 +1,5 @@
 ---
 title:  "The Gutter, the River, and an Endless Hoop"
-date:   2022-06-13 01:00:00 +0000
 image: "Panels-UnderstandingComics-ScottMcCloud-1994.png"
 categories: memes
 tags:

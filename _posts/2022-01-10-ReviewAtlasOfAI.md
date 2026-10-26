@@ -1,6 +1,5 @@
 ---
 title:  "Atlas of AI"
-date:   2022-01-10 05:00:00 +0000
 image: "theplayground2.jpg"
 categories: reviews
 tags:

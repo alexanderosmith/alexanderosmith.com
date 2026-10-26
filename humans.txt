@@ -1,0 +1,31 @@
+---
+layout: null
+---
+/* TEAM */
+
+  Portfolio of: Alexander O. Smith
+  Role: Owner, author
+  Site: https://alexanderosmith.com
+  GitHub: alexanderosmith (https://github.com/alexanderosmith)
+
+  Developer: Adam DJ Brett
+  Site: https://www.adamdjbrett.com
+  GitHub: adamdjbrett (https://github.com/adamdjbrett)
+
+  Contributor: Mesin Kasir
+  Site: https://www.axcora.com
+  GitHub: mesinkasir (https://github.com/mesinkasir)
+
+/* THANKS */
+
+  Theme: Flexton by Artem Sheludko
+  Site: https://anvodstudio.com
+  GitHub: @artemsheludko (https://github.com/artemsheludko)
+
+/* SITE */
+
+  Last update: {{ site.time | date: '%Y/%m/%d' }}
+  Language: English
+  Standards: HTML5, CSS3, Atom, RSS 2.0, JSON Feed 1.1, twtxt, microformats2, Dublin Core
+  Software: Jekyll {{ jekyll.version }}
+  Source: https://github.com/adamdjbrett/alexanderosmith.com

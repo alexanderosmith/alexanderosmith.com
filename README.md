@@ -45,6 +45,9 @@ Netlify builds with `bundle exec jekyll build` (see `netlify.toml`, which pins R
 - Colors, fonts and spacing (CSS variables): `_data/style.yml`
 - Sidebar social links: `_data/social.yml`
 - CV: `assets/pdfs/AOS_CurriculumVitae.pdf`, linked from `/cv/`
+- Feeds: `feed.xml` (Atom), `feed/feed.rss`, `feed/feed.json`, `feed/twtxt.txt`
+- Credits: `humans.txt`
+- Timezone: `timezone:` in `_config.yml` (America/New_York). Post dates come from the filename unless `date:` is set.
 
 ## Changes
 

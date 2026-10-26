@@ -1,0 +1,9 @@
+---
+layout: null
+---
+# nick        = alexanderosmith
+# url         = {{ page.url | absolute_url }}
+# description = {{ site.data.seo.blog_title }}: new posts
+{%- for post in site.posts reversed %}
+{{ post.date | date_to_xmlschema }}	{{ post.title | strip_html }} {{ post.url | absolute_url }}
+{%- endfor %}
