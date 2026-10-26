@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introduction"
-date: 2025-05-17 15:13:18 +0200
+date: 2026-10-25 15:13:18 +0200
 image: "profile_PaigesPhoto_crop1.png"
 tags: [aos, about]
 categories: about
