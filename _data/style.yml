@@ -1,0 +1,62 @@
+# Design tokens, rendered as CSS custom properties in assets/css/main.css
+# Values may reference other tokens with var(--name).
+
+# Global
+base-spacing-unit: "15px"
+global-radius: "5px"
+global-transition: ".35s"
+
+# Colors
+primary-color: "#33aaff"
+secondary-color: "#cfcfdd"
+alternate-color: "#AAAAAA"
+red-color: "#ee6c6c"
+green-color: "#55bf55"
+white-color: "#ffffff"
+dark: "#111111"
+darker: "#222222"
+dark-gray: "#333333"
+darkest: "#444444"
+gray: "#a0a0a0"
+gray-dark: "#757575"
+gray-light: "#dddddd"
+gray-lighten: "#edeeee"
+gray-lighter: "#cccccc"
+blue: "#33aaff"
+blue-light: "#cfcfdd"
+blue-lighter: "#dce4ea"
+blue-dark: "#0074d9"
+background: "#111111"
+alternate-background: "#0f0f0f"
+text-color: "#AAAAAA"
+heading-font-color: "#AAAAAA"
+link-color: "var(--primary-color)"
+link-color-hover: "#80caff"
+border-color: "#f0f0f0"
+
+# Typography
+base-font-size: "15px"
+base-font-style: "normal"
+base-font-variant: "normal"
+base-font-weight: "normal"
+base-font-family: "'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif"
+base-line-height: "28px"
+heading-font-weight: "400"
+heading-font-family: "'Volkhov', 'Times New Roman', Times, serif"
+
+# Headings
+font-size-h1: "32px"
+font-size-h2: "28px"
+font-size-h3: "24px"
+font-size-h4: "20px"
+font-size-h5: "18px"
+font-size-h6: "16px"
+heading-line-height: "1.2"
+
+# Layout
+base-wrapper-width: "1440px"
+wrapper-offset: "var(--base-spacing-unit)"
+
+# Derived (were Sass lighten/darken; recompute if the base color changes)
+tag-hover: "#f7f7f7"
+primary-dark: "#0086e6"

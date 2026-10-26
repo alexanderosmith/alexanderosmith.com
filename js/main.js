@@ -41,32 +41,16 @@ $(document).ready(function () {
   });
 
   /* =======================
-  // Adding ajax pagination
+  // Load more posts
   ======================= */
 
-  $(".c-load-more").click(loadMorePosts);
-
-  function loadMorePosts() {
-    var _this = this;
-    var $postsContainer = $('.c-posts');
-    var nextPage = parseInt($postsContainer.attr('data-page')) + 1;
-    var totalPages = parseInt($postsContainer.attr('data-totalPages'));
-
-    $(this).addClass('is-loading').text("Loading...");
-
-    $.get('/page/' + nextPage, function (data) {
-      var htmlData = $.parseHTML(data);
-      var $articles = $(htmlData).find('article');
-
-      $postsContainer.attr('data-page', nextPage).append($articles);
-
-      if ($postsContainer.attr('data-totalPages') == nextPage) {
-        $('.c-load-more').remove();
-      }
-
-      $(_this).removeClass('is-loading');
-    });
-  }
+  // All posts are in the page; reveal the next batch.
+  $(".c-load-more").click(function () {
+    var $hidden = $('.c-post[hidden]');
+    var perPage = parseInt($('.c-posts').attr('data-per-page'));
+    $hidden.slice(0, perPage).removeAttr('hidden');
+    if ($hidden.length <= perPage) $(this).remove();
+  });
 
   /* ==============================
   // Smooth scroll to the tags page

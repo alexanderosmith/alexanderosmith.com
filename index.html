@@ -2,18 +2,10 @@
 layout: home
 ---
 
-{% if paginator.page %}
-  {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
-  {% assign currentPage = paginator.page %}
-{% else %}
-  {% assign offset = 0 %}
-  {% assign currentPage = 1 %}
-{% endif %}
-
 {% include header.html %}
-<div class="c-posts o-opacity" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}">
-  {% for post in site.posts limit:site.paginate offset:offset %}
-  <article class="c-post">
+<div class="c-posts o-opacity" data-per-page="{{ site.paginate }}">
+  {% for post in site.posts %}
+  <article class="c-post"{% if forloop.index > site.paginate %} hidden{% endif %}>
     {% if post.image %}
     <a class="c-post-thumbnail o-opacity" style="background-image: url({{"/images/" | prepend: site.baseurl | append : post.image}})"
         href="{{post.url | prepend: site.baseurl}}"></a>
@@ -31,9 +23,7 @@ layout: home
   {% endfor %}
 </div> <!-- /.c-posts -->
 
-{% assign postCount = site.posts | size %}
-{% assign postsCovered = site.paginate | plus:offset %}
-{% if postsCovered < postCount %}
+{% if site.posts.size > site.paginate %}
   <button class="c-load-more c-btn c-btn--middle">Load more posts</button>
 {% endif %}
 {% include categories.html %}

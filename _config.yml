@@ -35,16 +35,8 @@ disqus-identifier: https-aos11409-github-io # Add your shortname for Disqus Comm
 # Build settings
 markdown: kramdown
 permalink: /:title/
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-include-cache
-  - jekyll-category-pages
-
+# posts shown before "Load more" (index.html)
 paginate: 7
-paginate_path: "/page/:num/"
 
 include:
   - _pages
@@ -55,10 +47,6 @@ defaults:
       path: "assets/pdfs"
     values:
       pdf: true
-
-sass:
-  sass_dir: _sass
-  style: compressed
 
 # Exclude from processing.
 exclude:
