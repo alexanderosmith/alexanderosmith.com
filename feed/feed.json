@@ -1,6 +1,9 @@
 ---
 layout: null
 ---
+{%- comment %} root-relative href/src → absolute: JSON Feed requires it, RSS has no xml:base {% endcomment -%}
+{%- assign abs_href = 'href="' | append: site.url | append: '/' -%}
+{%- assign abs_src = 'src="' | append: site.url | append: '/' -%}
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": {{ site.data.seo.blog_title | jsonify }},
@@ -16,7 +19,7 @@ layout: null
       "url": {{ post.url | absolute_url | jsonify }},
       "title": {{ post.title | strip_html | jsonify }},
       "summary": {{ post.excerpt | strip_html | normalize_whitespace | strip | jsonify }},
-      "content_html": {{ post.content | jsonify }},
+      "content_html": {{ post.content | replace: 'href="/', abs_href | replace: 'src="/', abs_src | jsonify }},
       {%- if post.image %}
       "image": {{ '/images/' | append: post.image | absolute_url | jsonify }},
       {%- endif %}
