@@ -1,6 +1,8 @@
 # Used by _includes/seo.html (replaces jekyll-seo-tag).
 # Page front matter wins: title, description, image (filename in /images/).
 locale: en_US
+# Zotero "Blog Title" (og:site_name, prism, DC.publisher); also the homepage title
+blog_title: "Alexander O. Smith's Blog"
 twitter: alexander0wen
 default_image: aos_bw.png
 
