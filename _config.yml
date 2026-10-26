@@ -1,6 +1,5 @@
 title: Alexander O. Smith
 description: "PhD in Information Science & Technology, iSchool, Syracuse University"
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.alexanderosmith.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author
@@ -11,47 +10,25 @@ author-email:   aos11409@gmail.com # Add your email for contant form.
 author-twitter: alexander0wen # Add your twitter account
 about-author:  I have a Ph.D., I study memes, I currently work for the National Science Foundation.
 
-# Social settings
-social-twitter:   alexander0wen
-social-facebook:  aos11409
-social-github:    alexanderosmith
-#social-pinterest: name
-social-instagram: alexander__owen
-#social-youtube:
-#social-vk:
-social-linkedin: aos11409
-social-mastodon: aosmith
-social-bluesky: alexander0wen.bsky.social
-
-# Newsletter
-mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
-
-# Google Analytics
-google-analytics: UA-113001384-1 # Add your identifier. For example UA-99631805-1
 
 # Comment Section (Disqus)
 disqus-identifier: https-aos11409-github-io # Add your shortname for Disqus Comment. For example mr-brown
 
 # Build settings
-markdown: kramdown
 permalink: /:title/
 # posts shown before "Load more" (index.html)
-paginate: 7
+posts_per_page: 7
 
 include:
   - _pages
-
-defaults:
-  # assets
-  - scope:
-      path: "assets/pdfs"
-    values:
-      pdf: true
 
 # Exclude from processing.
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-  - LICENSE
+  - LICENSE.txt
   - README.md
+  - netlify.toml
+  - "*.xcf"
+  - "eval*"  # committed SSH key files; never publish
