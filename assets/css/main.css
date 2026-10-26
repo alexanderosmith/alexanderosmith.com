@@ -2069,8 +2069,8 @@ li code {
   padding: 0;
 }
 
-.u-clearfix::before,
-.u-clearfix::after {
+.clearfix::before,
+.clearfix::after {
   content: "";
   display: table;
   clear: both;

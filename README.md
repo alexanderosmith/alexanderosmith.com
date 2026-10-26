@@ -53,7 +53,14 @@ I have used the following scripts, fonts or other files as listed.
 *   Kamila.is [@AnotherKamila](https://github.com/AnotherKamila/) has the best [YAML CV](https://github.com/AnotherKamila/yamlCV) but hers is setup very differently than Michael's.
 ## Deployment
 
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec serve` to start the Jekyll server. I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
+Requires Ruby 3.3.6 (`.ruby-version`, read by the Gemfile) and Jekyll 4.4 (`~> 4.4.1` in the Gemfile). No Jekyll plugins.
+
+```
+bundle install
+bundle exec jekyll serve
+```
+
+Netlify builds with `bundle exec jekyll build` (see `netlify.toml`, which pins the same Ruby 3.3.6). To take a Jekyll 4.4.x patch release: `bundle update jekyll`.
 
 ## Buy me @artemsheludko a coffee
 

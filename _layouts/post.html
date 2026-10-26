@@ -1,23 +1,28 @@
 ---
 layout: home
 ---
-<article class="c-article">
+<article class="c-article h-entry">
   <div class="c-article__content">
     {% if page.image %}
     <div class="c-article__image o-opacity" style="background-image: url( {{"/images/" | append : page.image}} )"></div>
     {% endif %}
     <div class="c-wrap-content">
       <header class="c-article__header">
-        <h1 class="c-article__title">{{page.title}}</h1>
+        <h1 class="c-article__title p-name">{{page.title}}</h1>
         <div class="c-article__date">
-          <span>{{page.date | date: '%Y, %b %d'}}</span>
+          <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date: '%Y, %b %d'}}</time>
+          <a class="p-author h-card" href="{{ '/' | absolute_url }}" hidden>{{ site.author-name }}</a>
+          <data class="u-url" value="{{ page.url | absolute_url }}"></data>
+          {% if page.image %}<data class="u-photo" value="{{ '/images/' | append: page.image | absolute_url }}"></data>{% endif %}
         </div>
       </header>
+      <div class="e-content">
       {{ content }}
-      <div class="c-article__footer u-clearfix">
+      </div>
+      <div class="c-article__footer clearfix">
         <div class="c-article__tag">
           {% for tag in page.tags %}
-          <a href="/tags#{{tag}}">&#35; {{ tag }}</a>
+          <a href="/tags#{{tag}}">&#35; <span class="p-category">{{ tag }}</span></a>
           {% endfor %}
         </div>
         <div class="c-article__share">

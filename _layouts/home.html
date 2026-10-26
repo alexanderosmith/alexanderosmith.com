@@ -2,15 +2,15 @@
 layout: default
 ---
 <aside class="c-sidebar">
-  <div class="c-sidebar-author">
+  <div class="c-sidebar-author h-card">
     <div class="c-author__cover">
       <a href="/">
-        <img src="/images/{% if site.author-image %}{{site.author-image}}{% endif %}" alt="{{site.author-name}}">
+        <img class="u-photo" src="/images/{{ site.author-image }}" alt="{{site.author-name}}">
       </a>
     </div>
     <div class="c-author__info">
-      <div class="c-author__name"><a href="/">{{site.author-name}}</a></div>
-      <span class="c-author__job">{{site.author-job}}</span>
+      <div class="c-author__name"><a class="p-name u-url u-uid" href="{{ '/' | absolute_url }}">{{site.author-name}}</a></div>
+      <span class="c-author__job p-job-title">{{site.author-job}}</span>
     </div>
     <div class="c-contact-menu">
       <p><a href="/introduction" class="c-contact-btn c-btn c-btn--secondary c-btn--round c-btn--shadow"><i class="fa-solid fa-user" aria-hidden="true"></i>Introduction</a></p>
@@ -21,7 +21,7 @@ layout: default
       <a href="https://twitter.com/intent/user?screen_name={{ site.author-twitter }}" class="c-btn c-btn--primary c-btn--round c-btn--shadow"><i class="fa-brands fa-twitter" aria-hidden="true"></i> Follow me</a>
       {% endif %}
     </div>
-    <p class="c-author__about">{{site.about-author | strip_html | truncatewords: 50}}</p>
+    <p class="c-author__about p-note">{{site.about-author | strip_html | truncatewords: 50}}</p>
   </div>
 
   <div class="c-sidebar-footer">
@@ -29,7 +29,7 @@ layout: default
       <div class="c-social__title">Social</div>
       <ul class="c-social__list u-lists-reset">
         {%- for s in site.data.social %}
-        <li class="c-social__item"><a href="{{ s.url }}" target="_blank" rel="me noopener" aria-label="{{ s.name }}"><i class="fa-brands fa-{{ s.icon }}"></i></a></li>
+        <li class="c-social__item"><a class="u-url" href="{{ s.url }}" target="_blank" rel="me noopener" aria-label="{{ s.name }}"><i class="fa-brands fa-{{ s.icon }}"></i></a></li>
         {%- endfor %}
       </ul>
     </div>

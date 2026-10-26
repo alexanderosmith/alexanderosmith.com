@@ -28,3 +28,47 @@
   <meta property="og:type" content="website">
 {%- endif %}
   <script type="application/ld+json">{{ seo.person | jsonify }}</script>
+{%- assign seo_lang = seo.locale | slice: 0, 2 %}
+  <link rel="author" href="{{ '/introduction/' | absolute_url }}">
+{%- for me in seo.person.sameAs %}
+  <link rel="me" href="{{ me }}">
+{%- endfor %}
+  <!-- Dublin Core -->
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+  <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/">
+  <meta name="DC.title" content="{{ page.title | default: site.title | escape }}">
+  <meta name="DC.creator" content="{{ seo.person.name }}">
+  <meta name="DC.publisher" content="{{ site.title | escape }}">
+  <meta name="DC.description" content="{{ seo_desc | escape }}">
+  <meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text">
+  <meta name="DC.format" scheme="DCTERMS.IMT" content="text/html">
+  <meta name="DC.identifier" scheme="DCTERMS.URI" content="{{ seo_url }}">
+  <meta name="DC.language" scheme="DCTERMS.RFC4646" content="{{ seo_lang }}">
+  <meta name="DC.rights" content="{{ '/copyright/' | absolute_url }}">
+  <meta name="DCTERMS.isPartOf" scheme="DCTERMS.URI" content="{{ '/' | absolute_url }}">
+  <!-- Zotero (needs the zotero: prefix on <html>). No citation_title / citation_journal_title:
+       they make Zotero guess or force journalArticle; the title rides on og:title / DC.title. -->
+  <meta name="prism.publicationName" content="{{ site.title | escape }}">
+  <meta name="prism.url" content="{{ seo_url }}">
+  <meta name="citation_public_url" content="{{ seo_url }}">
+  <meta name="citation_author" content="{{ seo.person.name }}">
+  <meta name="citation_publisher" content="{{ site.title | escape }}">
+  <meta name="citation_language" content="{{ seo_lang }}">
+{%- if page.date %}
+  {%- assign seo_subjects = page.tags | concat: page.categories | uniq %}
+  <meta property="zotero:itemType" content="blogPost">
+  <meta name="prism.genre" content="blogentry">
+  <meta name="DC.date" scheme="DCTERMS.W3CDTF" content="{{ page.date | date: '%Y-%m-%d' }}">
+  <meta name="DCTERMS.issued" scheme="DCTERMS.W3CDTF" content="{{ page.date | date: '%Y-%m-%d' }}">
+  {%- if page.last_modified_at %}
+  <meta name="DCTERMS.modified" scheme="DCTERMS.W3CDTF" content="{{ page.last_modified_at | date: '%Y-%m-%d' }}">
+  {%- endif %}
+  <meta name="citation_publication_date" content="{{ page.date | date: '%Y/%m/%d' }}">
+  <meta name="citation_online_date" content="{{ page.date | date: '%Y/%m/%d' }}">
+  {%- for s in seo_subjects %}
+  <meta name="DC.subject" content="{{ s | escape }}">
+  <meta name="citation_keywords" content="{{ s | escape }}">
+  {%- endfor %}
+{%- else %}
+  <meta property="zotero:itemType" content="webpage">
+{%- endif %}

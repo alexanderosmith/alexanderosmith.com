@@ -4,7 +4,7 @@
 
 [build.environment]
   JEKYLL_ENV = "production"
-  RUBY_VERSION = "3.4.7"
+  RUBY_VERSION = "3.3.6" # same as .ruby-version; Gemfile reads that file
 
 [[redirects]]
   from = "/cv.html"
