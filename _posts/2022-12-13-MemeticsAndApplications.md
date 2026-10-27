@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Memetics and Applications: A Brainstorm Exercise"
-date:   2022-12-13 01:00:00 +0000
 image: "IsThisIlluminati.png"
 categories: memes
 tags:

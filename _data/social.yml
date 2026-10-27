@@ -1,0 +1,8 @@
+# Sidebar social links (Font Awesome brand icon names)
+- { name: Twitter, icon: twitter, url: "https://twitter.com/alexander0wen" }
+- { name: Facebook, icon: facebook, url: "https://facebook.com/aos11409" }
+- { name: GitHub, icon: github, url: "https://github.com/alexanderosmith" }
+- { name: Instagram, icon: instagram, url: "https://instagram.com/alexander__owen" }
+- { name: LinkedIn, icon: linkedin, url: "https://in.linkedin.com/in/aos11409" }
+- { name: Mastodon, icon: mastodon, url: "https://hcommons.social/@aosmith" }
+- { name: Bluesky, icon: bluesky, url: "https://bsky.app/profile/alexander0wen.bsky.social" }

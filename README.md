@@ -1,19 +1,63 @@
 # [Alexander O. Smith](https://www.alexanderosmith.com/)
 
-## To Do List
+## Linux install
+
+From a fresh Debian or Ubuntu install to the site running at <http://127.0.0.1:4000>:
+
+```sh
+# 1. Build tools (four gems compile small C extensions)
+sudo apt update
+sudo apt install -y git curl build-essential libssl-dev libyaml-dev zlib1g-dev libffi-dev libreadline-dev
+
+# 2. Ruby 3.3 via rbenv. Skip this step if `ruby -v` already prints 3.3.x
+#    (apt's Ruby is 3.3.x on Debian 13 and Ubuntu 25.04, older elsewhere).
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+echo 'eval "$(~/.rbenv/bin/rbenv init - bash)"' >> ~/.bashrc
+source ~/.bashrc
+rbenv install 3.3.6
+
+# 3. The site
+git clone https://github.com/adamdjbrett/alexanderosmith.com.git
+cd alexanderosmith.com
+bundle install
+bundle exec jekyll serve
+```
+
+## Local development (macOS, Windows)
+
+Requires Ruby 3.3.x (Gemfile; `.ruby-version` defaults to 3.3.6) and Jekyll 4.4 (`~> 4.4.1`). No Jekyll plugins.
+
+| OS | One-time setup |
+|---|---|
+| macOS | `xcode-select --install`, then `rbenv install 3.3.6` |
+| Windows | [RubyInstaller](https://rubyinstaller.org/downloads/archives/) **Ruby+Devkit 3.3.x (x64)**, then `ridk install` (option 3) |
+
+Then run `bundle install` and `bundle exec jekyll serve` in the repo.
+
+## Deployment
+
+Netlify builds with `bundle exec jekyll build` (see `netlify.toml`, which pins Ruby 3.3.6). To take a Jekyll 4.4.x patch release: `bundle update jekyll`.
+
+## Where things live
+
+- SEO, Zotero and Dublin Core metadata: `_data/seo.yml` → `_includes/seo.html`
+- Colors, fonts and spacing (CSS variables): `_data/style.yml`
+- Sidebar social links: `_data/social.yml`
+- CV: `assets/pdfs/AOS_CurriculumVitae.pdf`, linked from `/cv/`
+- Feeds: `feed.xml` (Atom), `feed/feed.rss`, `feed/feed.json`, `feed/twtxt.txt`
+- Credits: `humans.txt`
+- Timezone: `timezone:` in `_config.yml` (America/New_York). Post dates come from the filename unless `date:` is set.
 
 ## Changes
-- using YAML CV by [Michael Standen](https://michael.standen.link/)
-  - For Title, Blurb, Content might need to be switched depending on what one wants emphasized.
-- Switched contact form form formspree.io to Netlify
-- Colors.
-  - Background: \#111111
-  - Background alt: \#0f0f0f
-  - Text: \#AAAAAA
-  - blue-dark: \#0074d9
-- clean up post import
-- Clean up codeblocks to match dark mode
+
+- Removed the contact form (Formspree, then Netlify Forms); `/contact/` shows the email address
+- Code blocks follow the visitor's light/dark setting
+- Posts get `layout: post` from `_config.yml` defaults
 - Removed G+
+- Dark colour scheme (background `#111111`, text `#AAAAAA`), now in `_data/style.yml`
+- Removed all Jekyll plugins and Sass; SEO, feed and sitemap are plain Liquid
+- Replaced jQuery, FitVids and Evil Icons with plain JavaScript and Font Awesome
 
 ## Flexton is an ultra-minimalist and responsive theme for Jekyll
 
@@ -29,32 +73,21 @@ Check the theme in action [Demo](https://flexton.netlify.com/) ![Page preview](h
 
 *   100% responsive and clean theme
 *   Optimized for mobile devices
-*   Valid HTML5 code
 *   Included site search
-*   Contact Page
+*   Contact page (email link)
 *   Post sharing
-*   Supports Mail Chimp Subscriber
-*   Supports Disqus Comments
-*   Social Media Profiles
-*   Contact Form - FormsPree
-*   Evil Icons
+*   Disqus comments
+*   Social media profiles
+*   Font Awesome icons
 *   Google Fonts
 
 ## Credits
 
-I have used the following scripts, fonts or other files as listed.
-
-*   [Google Fonts](https://fonts.google.com/) (Volkhov, Open Sans).
-*   [Evil Icons](http://evil-icons.io/)
-*   [FitVids.js](http://fitvidsjs.com/)
-*   [jQuery.com](https://jquery.com/)
+*   [Google Fonts](https://fonts.google.com/) (Volkhov, Open Sans)
+*   [Font Awesome](https://fontawesome.com/)
 *   [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
-*   Preview Images form [unsplash.com](https://unsplash.com/), [pexels.com](https://www.pexels.com/)
-*   Kamila.is [@AnotherKamila](https://github.com/AnotherKamila/) has the best [YAML CV](https://github.com/AnotherKamila/yamlCV) but hers is setup very differently than Michael's.
-## Deployment
+*   Preview images from [unsplash.com](https://unsplash.com/), [pexels.com](https://www.pexels.com/)
 
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec serve` to start the Jekyll server. I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
-
-## Buy me @artemsheludko a coffee
+## Buy @artemsheludko a coffee
 
 If you want to show your appreciation for this theme, buy [@artemsheludko](https://github.com/artemsheludko) one [![Buy artemsheludko A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/artemsheludko) ! Every five cups of coffee and a new theme for Jekyll is ready 😋

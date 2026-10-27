@@ -2,74 +2,35 @@
 layout: default
 ---
 <aside class="c-sidebar">
-  <div class="c-sidebar-author">
+  <div class="c-sidebar-author h-card">
     <div class="c-author__cover">
-      <a href="{{site.baseurl}}/">
-        <img src="{{site.baseurl}}/images/{% if site.author-image %}{{site.author-image}}{% endif %}" alt="{{site.author-name}}">
+      <a href="/">
+        <img class="u-photo" src="/images/{{ site.author-image }}" alt="{{site.author-name}}">
       </a>
     </div>
     <div class="c-author__info">
-      <div class="c-author__name"><a href="{{site.baseurl}}/">{{site.author-name}}</a></div>
-      <span class="c-author__job">{{site.author-job}}</span>
+      <div class="c-author__name"><a class="p-name u-url u-uid" href="{{ '/' | absolute_url }}">{{site.author-name}}</a></div>
+      <span class="c-author__job p-job-title">{{site.author-job}}</span>
     </div>
     <div class="c-contact-menu">
-      <p><a href="/introduction" class="c-contact-btn c-btn c-btn--secondary c-btn--round c-btn--shadow"><span data-icon='ei-sc-odnoklassniki' data-size='s'></span>Introduction</a></p>
+      <p><a href="/introduction" class="c-contact-btn c-btn c-btn--secondary c-btn--round c-btn--shadow"><i class="fa-solid fa-user" aria-hidden="true"></i>Introduction</a></p>
       {% if site.author-email %}
-      <a href="/contact" class="c-contact-btn c-btn c-btn--secondary c-btn--round c-btn--shadow"><span data-icon='ei-envelope' data-size='s'></span> Send me</a>
-      {% else %}
+      <a href="/contact" class="c-contact-btn c-btn c-btn--secondary c-btn--round c-btn--shadow"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email me</a>
       {% endif %}
       {% if site.author-twitter %}
-      <a href="https://twitter.com/intent/user?screen_name={{ site.social-twitter }}" class="c-btn c-btn--primary c-btn--round c-btn--shadow"><span data-icon='ei-sc-twitter' data-size='s'></span> Follow me</a>
-      {% else %}
+      <a href="https://twitter.com/intent/user?screen_name={{ site.author-twitter }}" class="c-btn c-btn--primary c-btn--round c-btn--shadow"><i class="fa-brands fa-twitter" aria-hidden="true"></i> Follow me</a>
       {% endif %}
     </div>
-    <p class="c-author__about">{{site.about-author | strip_html | truncatewords: 50}}</p>
+    <p class="c-author__about p-note">{{site.about-author | strip_html | truncatewords: 50}}</p>
   </div>
 
   <div class="c-sidebar-footer">
     <div class="c-social">
       <div class="c-social__title">Social</div>
       <ul class="c-social__list u-lists-reset">
-        {% if site.social-twitter %}
-          <li class="c-social__item"><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-        {% else %}
-        {% endif %}
-        {% if site.social-facebook %}
-          <li class="c-social__item"><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-        {% else %}
-        {% endif %}
-        {% if site.social-github %}
-          <li class="c-social__item"><a href="https://github.com/{{site.social-github}}" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-        {% else %}
-        {% endif %}
-        {% if site.social-pinterest %}
-          <li class="c-social__item"><a href="https://pinterest.com/{{site.social-pinterest}}" target="_blank"><i class="fa-brands fa-pinterest"></i></a></li>
-        {% else %}
-        {% endif %}
-        {% if site.social-instagram %}
-          <li class="c-social__item"><a href="https://instagram.com/{{ site.social-instagram }}" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-        {% else %}
-        {% endif %}
-        {% if site.social-youtube %}
-          <li class="c-social__item"><a href="https://youtube.com/{{ site.social-youtube }}" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-        {% else %}
-        {% endif %}
-        {% if site.social-vk %}
-          <li class="c-social__item"><a href="https://vk.com/{{ site.social-vk }}" target="_blank"><i class="fa-brands fa-vk"></i></a></li>
-        {% else %}
-        {% endif %}
-        {% if site.social-linkedin %}
-          <li class="c-social__item"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-        {% else %}
-        {% endif %}
-        {% if site.social-mastodon %}
-          <li class="c-social__item"><a href="https://hcommons.social/@{{site.social-mastodon}}" target="_blank"><i class="fa-brands fa-mastodon"></i></a></li>
-        {% else %}
-        {% endif %}
-        {% if site.social-bluesky %}
-          <li class="c-social__item"><a href="https://bsky.app/profile/{{site.social-bluesky}}" target="_blank"><i class="fa-brands fa-bluesky"></i></a></li>
-        {% else %}
-        {% endif %}
+        {%- for s in site.data.social %}
+        <li class="c-social__item"><a class="u-url" href="{{ s.url }}" target="_blank" rel="me noopener" aria-label="{{ s.name }}"><i class="fa-brands fa-{{ s.icon }}"></i></a></li>
+        {%- endfor %}
       </ul>
     </div>
     <div class="c-copyright">

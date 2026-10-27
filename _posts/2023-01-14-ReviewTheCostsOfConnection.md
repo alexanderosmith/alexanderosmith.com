@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "The Costs of Connection"
-date:   2023-01-14 12:00:00 +0000
 image: "theplayground2.jpg"
 categories: reviews
 tags:
